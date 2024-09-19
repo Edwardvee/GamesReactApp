@@ -1,3 +1,53 @@
-.title{
+.title {
+    text-align: center;
+}
+
+.discoverSection {
+    display: flex;
+    justify-content: center;        
+    align-items: center;            
+    width: 100vw;
+    margin: auto;                  
+    margin-bottom: 2vw;   
+    overflow: hidden;
+}
+
+
+
+.carousel {
+
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-start: auto;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2vw;
+    align-items: flex-start;
+    flex-direction: column ;
+    overflow: hidden;
+    max-width: 1200px;
+
+    grid-area: inherit;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .carousel {
+        grid-template-columns: repeat(2, 1fr);  
+        padding-inline: 3vw;                   
+        gap: 3vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        grid-template-columns: 1fr;         
+        padding-inline: 2vw;                   
+        gap: 2vw;
+    }
+}
+
+.catalogTitle {
     text-align: center;
 }
