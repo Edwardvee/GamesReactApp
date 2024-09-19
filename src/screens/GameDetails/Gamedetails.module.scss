@@ -1,0 +1,94 @@
+.gameDetails {
+    h1 {
+        margin: 1rem;
+    }
+
+    .detailContainer {
+        margin: 1rem 3rem 1rem 3rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #ffffff25;
+        border-radius: 5px;
+        border-color: #ffffff8a;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .imgCover {
+        flex: 30%;
+        border-right: #fff;
+        border-right-style: solid;
+        border-width: 1px;
+
+        img {
+            object-fit: cover;
+            min-height: inherit;
+            min-width: 100%;
+            min-height: 100%;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+    }
+
+    .aboutSection {
+        padding: 1rem;
+        flex: 60%;
+
+        p {
+            padding-inline: 1rem;
+            font-size: small;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .detailContainer {
+            flex-direction: column;
+
+        }
+
+        .imgCover {
+
+            border-right-style: none;
+            border-bottom-style: solid;
+            img {
+                min-height: 500px;
+                border-bottom-left-radius: 0px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .imgCover,
+        .aboutSection {
+            flex: 100%;
+        }
+
+    }
+}
+
+.moreInformation {
+    margin: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .tags {
+        padding: 1rem;
+        flex: 30%;
+        p{
+            font-size: smaller;
+        }
+    }
+    .requirements{
+        padding: 1rem;
+        flex: 60%;
+        p { 
+            font-size: smaller;
+        }
+    }
+}
