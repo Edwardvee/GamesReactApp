@@ -1,11 +1,12 @@
-.navbar{
+.navbar {
     overflow: hidden;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    background-color:  rgba(28,33,51,1) ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(28, 33, 51, 1);
     border-bottom: 1px solid #ffffff2d;
-   
+    z-index: 99999999999 !important;
+
     a {
         text-decoration: none;
         float: left;
@@ -15,4 +16,3 @@
         padding: 14px 16px;
     }
 }
-
