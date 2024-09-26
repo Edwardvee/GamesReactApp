@@ -16,27 +16,36 @@
 
 .carousel {
 
-    margin: auto;
+    margin: 16px;
     display: grid;
     grid-auto-flow: column;
     grid-column-start: auto;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2vw;
     align-items: flex-start;
-    flex-direction: column ;
+    flex-direction: column ;    
     overflow: hidden;
-    max-width: 1200px;
-
     grid-area: inherit;
 }
 
 
-
+@media only screen and (min-width: 2000px) and (min-height: 500px) and (max-height: 1600px) {
+    .carousel {
+        margin: 16px !important;
+        max-width: auto !important 
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 2000px){
+    .carousel {
+        max-width: 1200px;
+    }
+}
 @media screen and (max-width: 900px) {
     .carousel {
         grid-template-columns: repeat(2, 1fr);  
         padding-inline: 3vw;                   
         gap: 3vw;
+        max-width: 1200px;
     }
 }
 
@@ -45,6 +54,7 @@
         grid-template-columns: 1fr;         
         padding-inline: 2vw;                   
         gap: 2vw;
+        max-width: 1200px;
     }
 }
 
