@@ -22,7 +22,7 @@ interface IGameDetail {
 
 const gameExample: IGameDetail[] = [
   {
-    id: 1,
+    id: 4,
     title: "Bioshock",
     imgSrc: "/src/assets/img/bioshock.png",
     about:
