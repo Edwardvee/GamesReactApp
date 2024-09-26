@@ -59,23 +59,32 @@ export const GameDetails = () => {
   return (
     <>
       <div className={styles.gameDetails}>
-        <h1>{game?.title}</h1>
-        <div className={styles.detailContainer}>
-          <div className={styles.imgCover}>
-            <img src={game?.imgSrc} alt="Cover" />
-          </div>
-          <div className={styles.aboutSection}>
-            <h2>About</h2>
-            <p>{game?.about}</p>
+        <div
+          className={styles.divCover}
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)),url(" +
+              game?.imgSrc +
+              ")",
+          }}
+        >
+          <h1>{game?.title}</h1>
+          <div className={styles.detailContainer}>
+            <div className={styles.imgCover}>
+              <img src={game?.imgSrc} alt="Cover" />
+            </div>
+            <div className={styles.aboutSection}>
+              <h2>About</h2>
+              <p>{game?.about}</p>
 
-            <p>Rating: {game?.rating}</p>
-            <p>Platforms: {game?.platforms.join(", ")}</p>
-            <p>Buy at: </p>
-            <p>Genre: {game?.genre.join(", ")}</p>
-            <p>Release date: {game?.releaseDate} </p>
+              <p>Rating: {game?.rating}</p>
+              <p>Platforms: {game?.platforms.join(", ")}</p>
+              <p>Buy at: </p>
+              <p>Genre: {game?.genre.join(", ")}</p>
+              <p>Release date: {game?.releaseDate} </p>
+            </div>
           </div>
         </div>
-
         <div className={styles.moreInformation}>
           <div className={styles.tags}>
             <h3>Tags</h3>

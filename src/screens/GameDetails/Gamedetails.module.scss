@@ -1,26 +1,33 @@
 .gameDetails {
     h1 {
-        margin: 1rem;
+        margin-left: 10rem;
     }
 
     .detailContainer {
-        margin: 1rem 3rem 1rem 3rem;
+        margin: 1rem 10rem 1rem 10rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #ffffff25;
-        border-radius: 5px;
-        border-color: #ffffff8a;
-        border-style: solid;
-        border-width: 1px;
+        z-index: 99999999;
     }
-
+    .divCover{
+        z-index: -2;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 0 100px 50px rgba(0,0,0,0.3);
+        //filter: brightness(30%);
+       
+    }
+    .detailContainer::before{
+        filter: brightness(30%);
+    }
     .imgCover {
         flex: 30%;
         border-right: #fff;
         border-right-style: solid;
         border-width: 1px;
-
+        display: none;
         img {
             object-fit: cover;
             min-height: inherit;
@@ -58,8 +65,11 @@
                 border-top-right-radius: 5px;
             }
         }
-        h1, h2 {
+         h1, h2 {
             text-align: center;
+        }
+        h1{
+            margin-left: 0;
         }
         .imgCover,
         .aboutSection {
