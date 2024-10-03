@@ -61,14 +61,7 @@ export function EditGame() {
           }}
         >
           <Col>
-            <div
-              className={styles.img}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                height: "400px",
-              }}
-            >
+            <div className={styles.img}>
               <Form.Item
                 label=""
                 valuePropName="img"
@@ -102,7 +95,9 @@ export function EditGame() {
                     type="button"
                   >
                     <FileImageOutlined />
-                    <div style={{ marginTop: 8 }}>Upload</div>
+                    <div style={{ marginTop: 8 }}>
+                      Upload your game pictures
+                    </div>
                   </button>
                 </Upload>
               </Form.Item>
@@ -119,15 +114,7 @@ export function EditGame() {
             </div>
           </Col>
           <Col>
-            <div
-              className={styles.gameInfo}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                height: "600px",
-                minHeight: "min-content",
-              }}
-            >
+            <div className={styles.gameInfo} style={{}}>
               <Form.Item<IForm>
                 label="Game Title"
                 name="gameTitle"
@@ -166,7 +153,7 @@ export function EditGame() {
               >
                 <Rate allowHalf />
               </Form.Item>
-              <Form.Item style={{ marginTop: "auto" }}>
+              <Form.Item style={{ marginTop: "250px" }}>
                 <Button type="default" htmlType="submit">
                   Submit
                 </Button>
