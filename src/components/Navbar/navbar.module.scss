@@ -1,18 +1,25 @@
 .navbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(28, 33, 51, 1);
-    border-bottom: 1px solid #ffffff2d;
-    z-index: 99999999999 !important;
-
-    a {
-        text-decoration: none;
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-    }
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  justify-content: space-between; /* Ensures space between logo, search input, and menu */
+  align-items: center;
+  top: 0;
+  width: 100%;
+  background-color: rgba(28, 33, 51, 1);
+  border-bottom: 1px solid #ffffff2d;
+  z-index: 99999999999 !important;
+  .searchBar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline-block;
+  }
 }
