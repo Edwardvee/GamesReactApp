@@ -1,104 +1,105 @@
+.gameDetailsBody {
+  background: none !important;
+  background-color: rgb(65, 68, 90) !important;
+}
+
 .gameDetails {
-    h1 {
-        margin-left: 10rem;
-    }
+  h1 {
+    margin-left: 10rem;
+  }
 
+  .detailContainer {
+    margin: 1rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 99999999;
+  }
+  .divCover {
+    z-index: -2;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    //background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    //box-shadow: inset rgba(65, 68, 90, 1) 0px 100px 60px -12px;
+    //filter: brightness(30%);
+  }
+
+  .imgCover {
+    flex: 30%;
+    border-right: #fff;
+    border-right-style: solid;
+    border-width: 1px;
+    display: none;
+    img {
+      object-fit: cover;
+      min-height: inherit;
+      min-width: 100%;
+      min-height: 100%;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+
+  .aboutSection {
+    padding: 1rem;
+    flex: 60%;
+
+    p {
+      padding-inline: 1rem;
+      font-size: small;
+    }
+  }
+
+  @media (max-width: 800px) {
     .detailContainer {
-        margin: 1rem 10rem 1rem 10rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        z-index: 99999999;
+      flex-direction: column;
     }
-    .divCover{
-        z-index: -2;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        box-shadow: 0 0 100px 50px rgba(0,0,0,0.3);
-        //filter: brightness(30%);
-       
-    }
-    .detailContainer::before{
-        filter: brightness(30%);
-    }
+
     .imgCover {
-        flex: 30%;
-        border-right: #fff;
-        border-right-style: solid;
-        border-width: 1px;
-        display: none;
-        img {
-            object-fit: cover;
-            min-height: inherit;
-            min-width: 100%;
-            min-height: 100%;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
+      border-right-style: none;
+      border-bottom-style: solid;
+      img {
+        min-height: 500px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
     }
-
+    h1,
+    h2 {
+      text-align: center;
+    }
+    h1 {
+      margin-left: 0;
+    }
+    .imgCover,
     .aboutSection {
-        padding: 1rem;
-        flex: 60%;
-
-        p {
-            padding-inline: 1rem;
-            font-size: small;
-        }
+      flex: 100%;
     }
-
-    @media (max-width: 800px) {
-        .detailContainer {
-            flex-direction: column;
-
-        }
-
-        .imgCover {
-
-            border-right-style: none;
-            border-bottom-style: solid;
-            img {
-                min-height: 500px;
-                border-bottom-left-radius: 0px;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
-            }
-        }
-         h1, h2 {
-            text-align: center;
-        }
-        h1{
-            margin-left: 0;
-        }
-        .imgCover,
-        .aboutSection {
-            flex: 100%;
-        }
-
-    }
+  }
 }
 
 .moreInformation {
-    margin: 1rem 3rem 1rem 3rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .tags {
-        padding: 1rem;
-        flex: 30%;
-        p{
-            font-size: smaller;
-        }
+  margin: 1rem 3rem 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .tags {
+    padding: 1rem;
+    flex: 30%;
+    p {
+      font-size: smaller;
     }
-    .requirements{
-        padding: 1rem;
-        flex: 60%;
-        p { 
-            font-size: smaller;
-        }
+  }
+  .requirements {
+    padding: 1rem;
+    flex: 60%;
+    p {
+      font-size: smaller;
     }
+  }
 }

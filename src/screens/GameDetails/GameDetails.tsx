@@ -1,60 +1,30 @@
-import { useParams } from "react-router-dom";
-import styles from "./Gamedetails.module.scss";
 import { useEffect, useState } from "react";
-
-interface IRequirement {
-  minimum: string;
-  recommended: string;
-}
-
-interface IGameDetail {
-  id: number;
-  title: string;
-  imgSrc: string;
-  about: string;
-  releaseDate: string;
-  rating: number;
-  genre: string[];
-  platforms: string[];
-  tags: string[];
-  requirements: IRequirement;
-}
-
-const gameExample: IGameDetail[] = [
-  {
-    id: 4,
-    title: "Bioshock",
-    imgSrc: "/src/assets/img/bioshock.png",
-    about:
-      "FPS with RPG elements, Bioshock invites players to experience horrors of underwater isolation in the city of Rapture, the failed project of the better future. After surviving the plane crash, the protagonist has only one way to go  to the giant lighthouse that opens a way to the underwater utopia. Players will have to unravel the complicated history of Rapture, relying only on themselves, their guns and Plasmids, a mystical substance, that allows its user to obtain near magical abilities The atmosphere of isolation and threat is conveyed through the environmental sounds, subtle electrical buzzing and audio logs, telling the story of societal decay and despair.Players will shape the story, making moral choices along their way, saving Little Sisters or extracting ADAM, the mystical fuel for your abilities.While exploring the underwater city, players will complete missions for the last sane inhabitants of Rapture, while fending off the less fortunate ones.",
-    genre: ["Action", "Shooter"],
-    platforms: ["PC", "Xbox360", "PS3"],
-    tags: ["Singleplayer"],
-    rating: 5.3,
-    releaseDate: "11-11-2009",
-    requirements: {
-      minimum:
-        "Minimum: Operating System: Windows XP (with Service Pack 2) or Windows Vista\nCPU: Intel single-core Pentium 4 processor at 2.4GHz\nRAM: 1 GB\nVideo Card: Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600 or better/ATI X1300 or better, excluding ATI X1550)\nSound Card: 100% direct X 9.0c compatible sound card\nHard Drive Space: 8GB\nGame requires Internet connection for activation.",
-      recommended:
-        "Recommended: CPU: Intel Core 2 Duo processor\nRAM: 2GB\nVideo Card: DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT or better), DX 10 - NVIDIA GeForce 8600 or better\nSound Card: SoundBlaster(r) X-Fi(tm) series (optimized foruse with Creative Labs EAX ADVANCED HD 4.0 or EAX ADVANCED HD 5.0 compatible sound cards)",
-    },
-  },
-];
-
+import { Link, useParams } from "react-router-dom";
+import styles from "./Gamedetails.module.scss";
+import { GlobalStateService } from "../../services/globalStateService";
+import { GamesUseCases } from "../../useCases/gamesUseCases";
+import { Skeleton } from "antd";
 export const GameDetails = () => {
   const { id } = useParams();
-  const [game, setGame] = useState<IGameDetail>();
-  function findGame() {
-    const gameResult = gameExample.find((s) => String(s.id) === String(id));
-    if (gameResult) {
-      setGame(gameResult);
-    }
-  }
+  const game = GlobalStateService.getGameInfo()[0];
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    document.body.classList.add(styles.gameDetailsBody);
+    return () => {
+      document.body.classList.remove(styles.gameDetailsBody);
+    };
+  });
   useEffect(() => {
     if (id) {
-      findGame();
+      GamesUseCases.getGameInfo(id);
     }
   }, [id]);
+  useEffect(() => {
+    if (game) {
+      setLoading(false);
+    }
+  }, [game]);
 
   return (
     <>
@@ -63,24 +33,43 @@ export const GameDetails = () => {
           className={styles.divCover}
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)),url(" +
-              game?.imgSrc +
+              "linear-gradient(to top, rgba(65, 68, 90, 1) , rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)),url(" +
+              game?.backgroundImage +
               ")",
           }}
         >
-          <h1>{game?.title}</h1>
+          <h1 style={{ paddingTop: "40px" }}>
+            {loading ? <Skeleton /> : game?.title}
+          </h1>
           <div className={styles.detailContainer}>
             <div className={styles.imgCover}>
-              <img src={game?.imgSrc} alt="Cover" />
+              <img src={game?.backgroundImage} alt="Cover" />
             </div>
             <div className={styles.aboutSection}>
               <h2>About</h2>
-              <p>{game?.about}</p>
-
+              <p>{loading ? <Skeleton /> : game?.about}</p>
               <p>Rating: {game?.rating}</p>
-              <p>Platforms: {game?.platforms.join(", ")}</p>
+              <p>
+                Platforms:{" "}
+                {game?.platforms.map((p, index) => (
+                  <Link key={index} to="#">
+                    {p.platform.name}
+                    {index < game?.platforms.length - 1 && ", "}
+                  </Link>
+                ))}
+              </p>
               <p>Buy at: </p>
-              <p>Genre: {game?.genre.join(", ")}</p>
+              <p>
+                Genre:{" "}
+                {game?.genre.map((g, index) => {
+                  return (
+                    <Link key={"genre" + index} to={"#" + g.name}>
+                      {g.name}
+                      {index < game?.genre.length - 1 && ", "}
+                    </Link>
+                  );
+                })}
+              </p>
               <p>Release date: {game?.releaseDate} </p>
             </div>
           </div>
@@ -88,12 +77,27 @@ export const GameDetails = () => {
         <div className={styles.moreInformation}>
           <div className={styles.tags}>
             <h3>Tags</h3>
-            <p>{game?.tags.join(", ")}</p>
+            <p>
+              {game?.tags.map((t, index) => (
+                <Link key={"tag" + index} to={"#" + t.name}>
+                  {t.name}
+                  {index < game?.tags.length - 1 && ", "}
+                </Link>
+              ))}
+            </p>
           </div>
           <div className={styles.requirements}>
-            <h3> System requirements for PC</h3>
-            <p>{game?.requirements.minimum}</p>
-            <p>{game?.requirements.recommended}</p>
+            {game?.platforms.map((p, index) =>
+              p.requirements.minimum ? (
+                <div key={"platform" + index}>
+                  <h3>System requirements for {p.platform.name}</h3>
+                  <p>{p.requirements.minimum}</p>
+                  <p>{p.requirements.recommended}</p>
+                </div>
+              ) : (
+                <div key={index}></div>
+              )
+            )}
           </div>
         </div>
       </div>
