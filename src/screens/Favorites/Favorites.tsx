@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Card, Grid } from "antd";
 import { CardGameD } from "../../components/CardGameDefault/CardGameDefault";
+import { GamesUseCases } from "../../useCases/gamesUseCases";
+import { GlobalStateService } from "../../services/globalStateService";
 export function Favorites() {
   const screens = Grid.useBreakpoint();
 
@@ -11,6 +13,11 @@ export function Favorites() {
     else if (screens.sm) return 24;
     return 24; // 1 column on smaller screens
   };
+  const games = GlobalStateService.getGameInfo();
+  useEffect(() => {
+    GamesUseCases.getGameInfo("1");
+    console.log(games);
+  }, []);
   const cardsData = [
     <CardGameD
       id={1}
@@ -65,7 +72,7 @@ export function Favorites() {
           margin: "auto",
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Your favorites</h1>
+        <h1 style={{ textAlign: "center" }}>Your library</h1>
         <Row gutter={[16, 4]} justify="center" align={"middle"}>
           {cardsData.map((card) => (
             <Col key={card.props.id} span={getColumnSpan()} style={{ flex: 0 }}>
