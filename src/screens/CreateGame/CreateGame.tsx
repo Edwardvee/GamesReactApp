@@ -1,57 +1,80 @@
-import styles from "./createGame.module.scss";
-import { Form } from "antd";
-import { useFormik } from "formik";
-import {
-  Button,
-  Input,
-  DatePicker,
-  Upload,
-  Select,
-  Rate,
-  Row,
-  Col,
-} from "antd";
 import { FileImageOutlined } from "@ant-design/icons";
 import type { SelectProps } from "antd";
+import {
+  Button,
+  Col,
+  DatePicker,
+  Form,
+  Input,
+  Rate,
+  Row,
+  Select,
+  Upload,
+  Alert,
+  message,
+} from "antd";
+import { useFormik } from "formik";
+import { useEffect } from "react";
+import { GlobalStateService } from "../../services/globalStateService";
+import { IFormData } from "../../types";
+import { GamesUseCases } from "../../useCases/gamesUseCases";
+import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
+import styles from "./createGame.module.scss";
 
 export function CreateGame() {
-  type IForm = {
-    gameTitle?: string;
-    description?: string;
-    releaseDate?: string;
-    starRating?: number;
-    img?: string;
-    tags?: string[];
-  };
-  const formik = useFormik<IForm>({
+  const Genres = GlobalStateService.getGenres();
+  const Platforms = GlobalStateService.getPlatforms();
+  useEffect(() => {
+    GamesUseCases.getGenres();
+    GamesUseCases.getPlatforms();
+  }, []);
+
+  const formik = useFormik<IFormData>({
     initialValues: {
-      gameTitle: "",
-      description: "",
+      id: "",
+      title: "",
+      about: "",
       releaseDate: "",
-      starRating: 0,
-      img: "",
+      rating: 0,
+      backgroundImage: "",
       tags: [],
+      genres: [],
+      platforms: [],
+      source: "json",
     },
     onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
+      JSONGamesUseCases.createGame(values);
+      message.success("Game added successfully!");
+
+      formik.resetForm();
     },
   });
-  const options: SelectProps["options"] = [];
-  for (let i = 10; i < 36; i++) {
-    options.push({
-      label: i.toString(36) + i,
-      value: i.toString(36) + i,
-    });
-  }
+  useEffect(() => {
+    console.log(formik.values.tags);
+  }, [formik.values]);
+  const optionsGenres: SelectProps["options"] = Genres.map((g) => ({
+    label: g.name,
+    value: g.id,
+  }));
+  const optionsPlatforms: SelectProps["options"] = Platforms.map((p) => ({
+    label: p.name,
+    value: p.id,
+  }));
+
   return (
     <>
       <Row
         justify="center"
         align="middle"
-        style={{ width: "100vw", height: "100vh", alignItems: "stretch" }}
+        style={{
+          width: "100vw",
+          height: "100vh",
+          display: "flex",
+          alignItems: "stretch",
+        }}
       >
         <Form
-          onFinish={formik.submitForm}
+          onFinish={formik.handleSubmit}
           variant="filled"
           layout="inline"
           style={{
@@ -109,33 +132,40 @@ export function CreateGame() {
                 allowClear
                 style={{ width: "100%" }}
                 placeholder="Please select"
-                options={options}
+                options={optionsGenres}
+                value={formik.values.tags}
+                maxTagCount={"responsive"}
+                onChange={(value) => formik.setFieldValue("tags", value)}
               />
             </div>
           </Col>
           <Col>
             <div className={styles.gameInfo} style={{}}>
-              <Form.Item<IForm>
+              <Form.Item<IFormData>
                 label="Game Title"
-                name="gameTitle"
+                name="title"
                 layout="vertical"
                 rules={[{ required: true, message: "Insert a game title." }]}
               >
-                <Input />
+                <Input
+                  value={formik.values.title}
+                  onChange={formik.handleChange}
+                />
               </Form.Item>
-
-              <Form.Item<IForm>
-                label="Description"
-                name="description"
+              <Form.Item<IFormData>
+                label="About"
+                name="about"
                 layout="vertical"
                 rules={[
                   { required: true, message: "Insert a game description." },
                 ]}
               >
-                <Input.TextArea />
+                <Input.TextArea
+                  value={formik.values.about}
+                  onChange={formik.handleChange}
+                />
               </Form.Item>
-
-              <Form.Item<IForm>
+              <Form.Item<IFormData>
                 label="Release date"
                 name="releaseDate"
                 layout="vertical"
@@ -143,15 +173,62 @@ export function CreateGame() {
                   { required: true, message: "Insert a game release date." },
                 ]}
               >
-                <DatePicker />
+                <DatePicker
+                  value={formik.values.releaseDate}
+                  onChange={(value) =>
+                    formik.setFieldValue("releaseDate", value)
+                  }
+                />
               </Form.Item>
-              <Form.Item<IForm>
+              <Form.Item<IFormData>
                 label="Star rating"
-                name="starRating"
+                name="rating"
                 layout="vertical"
                 rules={[{ required: true, message: "Select a star rating." }]}
               >
-                <Rate allowHalf />
+                <Rate
+                  allowHalf
+                  value={formik.values.rating}
+                  onChange={(value) => formik.setFieldValue("rating", value)}
+                />
+              </Form.Item>
+              <Form.Item
+                label="Genres"
+                name="genres"
+                layout="vertical"
+                rules={[
+                  { required: true, message: "Insert at least one genre." },
+                ]}
+              >
+                <Select
+                  mode="multiple"
+                  allowClear
+                  style={{ width: "100%" }}
+                  placeholder="Please select"
+                  options={optionsGenres}
+                  value={formik.values.genres}
+                  optionFilterProp="label"
+                  onChange={(value) => formik.setFieldValue("genres", value)}
+                ></Select>
+              </Form.Item>
+              <Form.Item
+                label="Platforms"
+                name="platforms"
+                layout="vertical"
+                rules={[
+                  { required: true, message: "Insert at least one platform." },
+                ]}
+              >
+                <Select
+                  mode="multiple"
+                  allowClear
+                  style={{ width: "100%" }}
+                  placeholder="Please select"
+                  options={optionsPlatforms}
+                  value={formik.values.platforms}
+                  optionFilterProp="label"
+                  onChange={(value) => formik.setFieldValue("platforms", value)}
+                ></Select>
               </Form.Item>
               <Form.Item style={{ marginTop: "250px" }}>
                 <Button type="default" htmlType="submit">
