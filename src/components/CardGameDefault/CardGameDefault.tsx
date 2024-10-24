@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 import styles from "./index.module.scss";
 
 interface CardComponent {
-  id: number;
+  id: string;
   title: string;
   imgSrc: string;
   releaseDate: string;
   genre: string[];
   platforms: string[];
+  source: string;
 }
 
 export const CardGameD: React.FC<CardComponent> = ({
@@ -20,6 +21,7 @@ export const CardGameD: React.FC<CardComponent> = ({
   releaseDate,
   genre,
   platforms,
+  source,
 }) => {
   const [favState, setFavState] = useState(false);
   return (
@@ -28,12 +30,19 @@ export const CardGameD: React.FC<CardComponent> = ({
         hoverable
         className={styles.gamecard}
         bordered={false}
-        cover={<img draggable={false} alt="Cover" src={imgSrc} />}
+        cover={
+          <img
+            className={styles.imgCard}
+            draggable={false}
+            alt="Cover"
+            src={imgSrc}
+          />
+        }
       >
         <div className={styles.titleHoverContainer}>
           <Link
             draggable={false}
-            to={"/details/" + id}
+            to={{ pathname: "/details/" + id, search: "?source=" + source }}
             className={styles.titleHover}
           >
             {title}
