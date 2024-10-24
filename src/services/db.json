@@ -1,0 +1,550 @@
+{
+  "games": [
+    {
+      "id": "7e24c152-664d-44ac-88a8-8867886c2560",
+      "title": "Deadlock",
+      "about": "A hero shooter moba game",
+      "releaseDate": "2024-10-02T03:00:00.000Z",
+      "rating": 4.5,
+      "backgroundImage": "",
+      "tags": [
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "genres": [
+        {}
+      ],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "7e24c152-664d-44ac-88a8-3867886c2560",
+      "title": "Deasdsck",
+      "about": "A hero shooter moba game",
+      "releaseDate": "2024-10-02T03:00:00.000Z",
+      "rating": 4.5,
+      "backgroundImage": "",
+      "tags": [
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "genres": [
+        {}
+      ],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "7e24c152-664d-42ac-88a8-8867886c2560",
+      "title": "Dfornite",
+      "about": "A hero shooter moba game",
+      "releaseDate": "2024-10-02T03:00:00.000Z",
+      "rating": 4.5,
+      "backgroundImage": "",
+      "tags": [
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "genres": [
+        {}
+      ],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "19e0d545-7c88-4fe3-a9f7-8d1e10b48091",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "44cc3e8f-c0fd-43e6-87d4-5a8acdd7db91",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "58ea2e63-ad65-4e80-9833-09e3b65b0dbf",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "ca676b2c-7aaa-48c3-8276-0dd2abba6237",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "608570ec-668f-426f-a5e8-461cf1d1d09e",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "a57664ea-d56e-45b7-9f7c-21e6c46c5533",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "fa329577-049c-4e1b-9518-7f767357525f",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "2d29ea72-df41-4923-ab96-c35f916c95eb",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "8c79ba1b-1c8b-4f40-af3a-3491053a7848",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "a1ed9ab9-ba0a-446c-9c0b-558d9f216247",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "cced868c-17dd-4f28-88da-c8f54a4378b7",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "5ec2796d-7741-4ab7-9fa4-8d343bc733eb",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "0dc2dcda-de2b-4e02-be8c-c81b2854aa8b",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "619102f7-6a2d-4553-87e9-1572ac893fd6",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "ed305e18-70bf-48eb-8f5e-3268609ef9bc",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "613f791a-b50a-4e91-8847-7ad8d25daa50",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "76fc45f2-fd64-4c6e-98bb-cf6ba62e54f7",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "fbe137f1-2419-49f7-8453-11bfc9dc532b",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "999edda3-5f2c-468a-8e24-fd79ac9b7fcd",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "06a1b7fd-7a1d-4d72-9acc-cc40003457aa",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "f23d2006-6d75-4282-983b-88841cb786bd",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "73b169c6-2466-4323-b1b1-7d8c6edfebda",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "4f878930-46fb-4d82-bd83-a44b55459305",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "287952ad-4b6f-4d72-9a21-bdcd8bc30efc",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "c558ad8d-8ab0-4d53-8ff1-f6e3a2809644",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "1a980f33-6b89-49ad-acaa-447fbe501388",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "d8d956d6-bb87-44e5-b212-5081bea0e98c",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "30932c45-569c-4e42-9cc2-c20d3f95de37",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "741f729e-a559-4afc-8ddc-cee6beea76da",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "9daa2961-510d-4752-bd21-64b84cd6e09a",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "7f41c788-f46f-435b-854d-151939c0fee6",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "767a134c-922f-4822-8b2a-07f43b8e481e",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "af9f2751-6f63-4e53-ad9e-569a8a25b8f0",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "34bdcd40-efba-4a82-8f16-75056e421c3e",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "676cabd1-ad3c-4c42-a107-d74aa3cc2291",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "45d5c14c-9bd9-40d3-a7a5-b387a29b4798",
+      "title": "",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    },
+    {
+      "id": "5052266a-4b8a-41a3-8fe1-7092142e748d",
+      "title": "Ultima entrada",
+      "about": "",
+      "releaseDate": "",
+      "rating": 0,
+      "backgroundImage": "",
+      "tags": [],
+      "genres": [],
+      "platforms": [],
+      "source": "json"
+    }
+  ],
+  "your-library": [
+    {
+      "id": "702277d8-32a6-4085-bbd6-4ea193d45680",
+      "title": "Deadlock 2",
+      "about": "XDD",
+      "rating": 5.2,
+      "genres": [
+        {
+          "name": "Hero Shooter"
+        },
+        {
+          "name": "Action"
+        },
+        {
+          "name": "Moba"
+        }
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/header.jpg?t=1727395347",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "aa",
+            "recommended": "aaa"
+          },
+          "releasedAt": "11-11-1111"
+        }
+      ],
+      "releaseDate": "24-8-2024",
+      "tags": [
+        {
+          "name": "FPS"
+        },
+        {
+          "name": "Multiplayer"
+        },
+        {
+          "name": "Hero Shooter"
+        }
+      ]
+    }
+  ]
+}
