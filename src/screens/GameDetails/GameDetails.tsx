@@ -1,14 +1,26 @@
+import { Skeleton } from "antd";
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import styles from "./Gamedetails.module.scss";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { GlobalStateService } from "../../services/globalStateService";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
-import { Skeleton } from "antd";
+import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
+import { Image, Row, Col, Grid } from "antd";
+
+import styles from "./Gamedetails.module.scss";
 export const GameDetails = () => {
   const { id } = useParams();
   const game = GlobalStateService.getGameInfo()[0];
   const [loading, setLoading] = useState(true);
-
+  const location = useLocation();
+  const source = new URLSearchParams(location.search).get("source");
+  const screens = Grid.useBreakpoint();
+  const getColumnSpan = () => {
+    if (screens.xl) return 8;
+    else if (screens.lg) return 12;
+    else if (screens.md) return 12;
+    else if (screens.sm) return 24;
+    return 24; // 1 column on smaller screens
+  };
   useEffect(() => {
     document.body.classList.add(styles.gameDetailsBody);
     return () => {
@@ -17,12 +29,17 @@ export const GameDetails = () => {
   });
   useEffect(() => {
     if (id) {
-      GamesUseCases.getGameInfo(id);
+      if (source == "api") {
+        GamesUseCases.getGameInfo(id);
+      } else if (source == "json") {
+        JSONGamesUseCases.GameInfo(id);
+      }
     }
-  }, [id]);
+  }, [id, source]);
   useEffect(() => {
     if (game) {
       setLoading(false);
+      console.log(game);
     }
   }, [game]);
 
@@ -51,7 +68,7 @@ export const GameDetails = () => {
               <p>Rating: {game?.rating}</p>
               <p>
                 Platforms:{" "}
-                {game?.platforms.map((p, index) => (
+                {game?.platforms?.map((p, index) => (
                   <Link key={index} to="#">
                     {p.platform.name}
                     {index < game?.platforms.length - 1 && ", "}
@@ -61,11 +78,11 @@ export const GameDetails = () => {
               <p>Buy at: </p>
               <p>
                 Genre:{" "}
-                {game?.genre.map((g, index) => {
+                {game?.genres?.map((g, index) => {
                   return (
                     <Link key={"genre" + index} to={"#" + g.name}>
                       {g.name}
-                      {index < game?.genre.length - 1 && ", "}
+                      {index < game?.genres.length - 1 && ", "}
                     </Link>
                   );
                 })}
@@ -78,7 +95,7 @@ export const GameDetails = () => {
           <div className={styles.tags}>
             <h3>Tags</h3>
             <p>
-              {game?.tags.map((t, index) => (
+              {game?.tags?.map((t, index) => (
                 <Link key={"tag" + index} to={"#" + t.name}>
                   {t.name}
                   {index < game?.tags.length - 1 && ", "}
@@ -87,7 +104,7 @@ export const GameDetails = () => {
             </p>
           </div>
           <div className={styles.requirements}>
-            {game?.platforms.map((p, index) =>
+            {game?.platforms?.map((p, index) =>
               p.requirements.minimum ? (
                 <div key={"platform" + index}>
                   <h3>System requirements for {p.platform.name}</h3>
@@ -98,6 +115,22 @@ export const GameDetails = () => {
                 <div key={index}></div>
               )
             )}
+          </div>
+          <div className={styles.screenshots}>
+            <h3>Screenshots</h3>
+
+            <Row
+              gutter={[16, 4]}
+              justify="center"
+              align={"middle"}
+              style={{ marginTop: "20px" }}
+            >
+              {game?.screenshots?.map((s, index) => (
+                <Col key={s.id} span={getColumnSpan()} style={{ flex: 0 }}>
+                  <Image width={200} src={s.image} />
+                </Col>
+              ))}
+            </Row>
           </div>
         </div>
       </div>
