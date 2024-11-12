@@ -1,5 +1,12 @@
 import zustand, { create } from "zustand";
-import { IGameDetail, IGameCard, IGenres, ITags, IPlatform } from "../types";
+import {
+  IGameDetail,
+  IGameCard,
+  IGenres,
+  ITags,
+  IPlatform,
+  userOptions,
+} from "../types";
 
 interface IGlobalDataState {
   games: IGameCard[];
@@ -12,6 +19,7 @@ interface IGlobalDataState {
   platforms: IPlatform[];
   pageSize: number;
   items: number;
+  userOptions: userOptions;
 }
 const initialStoreData: IGlobalDataState = {
   games: [],
@@ -24,6 +32,7 @@ const initialStoreData: IGlobalDataState = {
   page: 1,
   pageSize: 10,
   items: 0,
+  userOptions: { source: "api", genres: [], platforms: [], orderBy: "name" },
 };
 
 const globalDataState = create(() => initialStoreData);
@@ -95,6 +104,7 @@ function setGenres(genres: IGenres[]) {
     return { ...prev, genres };
   });
 }
+
 function getTags() {
   return globalDataState((state) => {
     return state.tags;
@@ -135,6 +145,26 @@ function setItems(items: number) {
 function getItems() {
   return globalDataState.getState().items;
 }
+
+function setUserFilterOptions(options: userOptions) {
+  globalDataState.setState((prev) => {
+    return { ...prev, options };
+  });
+}
+function getUserFilterOptions() {
+  return globalDataState.getState().userOptions;
+}
+
+function setFilteredGames(games: IGameCard[]) {
+  globalDataState.setState((prev) => {
+    return { ...prev, games };
+  });
+}
+function getFilteredGames() {
+  return globalDataState((state) => {
+    return state.games;
+  });
+}
 export const GlobalStateService = {
   getGames,
   setGames,
@@ -159,4 +189,8 @@ export const GlobalStateService = {
   setItems,
   getItems,
   getGamesOutsideComponent,
+  setFilteredGames,
+  getFilteredGames,
+  setUserFilterOptions,
+  getUserFilterOptions,
 };

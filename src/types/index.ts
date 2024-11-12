@@ -1,3 +1,5 @@
+import dayjs, { Dayjs } from "dayjs";
+
 export interface ITags {
   id: number;
   name: string;
@@ -21,10 +23,10 @@ export interface IGenres {
   name: string;
 }
 export interface IScreenshot {
-  id: number;
+  id?: number;
   image: string;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
 }
 export interface IGameDetail {
   id: string;
@@ -48,10 +50,20 @@ export interface IGameCard {
   image: string;
   source: "api" | "json";
 }
-export interface IFormData extends Omit<IGameDetail, "tags"> {
+export interface IFormData
+  extends Omit<IGameDetail, "genres" | "platforms" | "tags" | "screenshots"> {
   tags: number[];
+  genres: number[];
+  platforms: number[];
+  screenshots?: string[];
 }
 export interface IFilter {
   param: string;
   value: string;
+}
+export interface userOptions {
+  source: "api" | "json";
+  orderBy: string;
+  genres: number[];
+  platforms: number[];
 }
