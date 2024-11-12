@@ -1,11 +1,11 @@
+import { Col, Grid, Row, Select, Spin } from "antd";
 import { useEffect, useState } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
 import { CardGameD } from "../../components/CardGameDefault/CardGameDefault";
-import { Row, Col, Grid, Select, Spin } from "antd";
-import styles from "./homepage.module.scss";
 import { GlobalStateService } from "../../services/globalStateService";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
-import InfiniteScroll from "react-infinite-scroll-component";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
+import styles from "./homepage.module.scss";
 
 import type { SelectProps } from "antd";
 
@@ -55,7 +55,7 @@ export function Homepage() {
   const dGames = GlobalStateService.getDiscoverGames();
   const cGamesPage = GlobalStateService.getGamesPage();
   const gamesItems = GlobalStateService.getItems();
-  const userOptions = GlobalStateService.getUserFilterOptions();
+  //const userOptions = GlobalStateService.getUserFilterOptions();
   const [dLoading, setDLoading] = useState(true);
 
   useEffect(() => {
@@ -79,10 +79,10 @@ export function Homepage() {
         { param: "ordering", value: "Name" },
         genres?.join(","),
         platforms?.join(",")
-      ).then((newGames) => {});
+      ).then(() => {});
     } else {
       JSONGamesUseCases.GetGames(cGamesPage, genres, platforms, "name").then(
-        (newGames) => {}
+        () => {}
       );
     }
     hasMoreState(true);
@@ -243,7 +243,7 @@ export function Homepage() {
                 },
                 genres?.join(","),
                 platforms?.join(",")
-              ).then((newGames) => {
+              ).then(() => {
                 GlobalStateService.setGamesPage(cGamesPage + 1);
               });
             } else {
@@ -252,7 +252,7 @@ export function Homepage() {
                 genres,
                 platforms,
                 "name"
-              ).then((newGames) => {
+              ).then(() => {
                 if (gamesItems <= cGames.length) {
                   hasMoreState(false);
                 } else {

@@ -6,34 +6,31 @@ import {
   DatePicker,
   Form,
   Input,
+  message,
   Rate,
   Row,
   Select,
   Upload,
-  Alert,
-  message,
 } from "antd";
+import { UploadFile } from "antd/es/upload/interface";
 import { useFormik } from "formik";
 import { useEffect, useState } from "react";
 import { GlobalStateService } from "../../services/globalStateService";
-import { UploadFile } from "antd/es/upload/interface";
 
+import { useLocation, useParams } from "react-router-dom";
 import {
   IFormData,
-  IGameDetail,
   IGenres,
-  IPlatform,
   IPlatforms,
   IScreenshot,
   ITags,
 } from "../../types";
-import { Link, useLocation, useParams } from "react-router-dom";
 
+import dayjs from "dayjs";
+import { cloudinary } from "../../services/api/cloudinaryService";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
-import { cloudinary } from "../../services/api/cloudinaryService";
 import styles from "./EditGame.module.scss";
-import dayjs from "dayjs";
 
 export function EditGame() {
   const { id } = useParams();
@@ -148,7 +145,7 @@ export function EditGame() {
     setFileList(initialFileList);
   }, [formik.values.backgroundImage, formik.values.screenshots]);
 
-  const [isFirstImage, setIsFirstImage] = useState(true);
+  //const [isFirstImage, setIsFirstImage] = useState(true);
 
   return (
     <>
@@ -164,7 +161,7 @@ export function EditGame() {
         }}
       >
         <Form
-          onFinish={(e) => {
+          onFinish={() => {
             formik.handleSubmit();
           }}
           variant="filled"

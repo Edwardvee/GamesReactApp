@@ -131,7 +131,7 @@ export const GameDetails = () => {
               align={"middle"}
               style={{ marginTop: "20px" }}
             >
-              {game?.screenshots?.map((s, index) => (
+              {game?.screenshots?.map((s) => (
                 <Col key={s.id} span={getColumnSpan()} style={{ flex: 0 }}>
                   <Image width={200} src={s.image} />
                 </Col>

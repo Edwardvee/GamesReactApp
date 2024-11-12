@@ -26,6 +26,7 @@ async function getFavorites() {
 async function createGame(game: IGameDetail) {
   try {
     const { data } = await jsonAxiosInstance.post("/games/", game);
+    return data;
   } catch (e) {
     console.log(e);
     return e;
@@ -34,6 +35,7 @@ async function createGame(game: IGameDetail) {
 async function addGameFavorite(game: IGameDetail) {
   try {
     const { data } = await jsonAxiosInstance.post("/your-library/", game);
+    return data;
   } catch (e) {
     console.log(e);
     return e;

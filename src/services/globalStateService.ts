@@ -1,10 +1,10 @@
-import zustand, { create } from "zustand";
+import { create } from "zustand";
 import {
-  IGameDetail,
   IGameCard,
+  IGameDetail,
   IGenres,
-  ITags,
   IPlatform,
+  ITags,
   userOptions,
 } from "../types";
 

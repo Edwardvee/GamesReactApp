@@ -2,13 +2,11 @@ import { v4 as uuidv4 } from "uuid";
 import { GlobalStateService } from "../services/globalStateService";
 import { JSONAPIService } from "../services/jsonApi/jsonApiService";
 import {
-  IFilter,
   IFormData,
   IGameCard,
   IGameDetail,
   IGenres,
   IPlatforms,
-  IScreenshot,
   ITags,
 } from "../types";
 
@@ -170,7 +168,9 @@ async function createGame(game: IFormData) {
       }),
 
       backgroundImage: game.backgroundImage,
-      screenshots: game.screenshots,
+      screenshots: game.screenshots?.map((s: any) => {
+        return { image: s };
+      }),
       genres: game.genres.map((genre: number) => {
         const value = mapGenres.get(genre);
         return {

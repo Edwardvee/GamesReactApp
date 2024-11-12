@@ -1,5 +1,3 @@
-import dayjs, { Dayjs } from "dayjs";
-
 export interface ITags {
   id: number;
   name: string;

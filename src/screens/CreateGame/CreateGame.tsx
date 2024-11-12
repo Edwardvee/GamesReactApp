@@ -6,20 +6,19 @@ import {
   DatePicker,
   Form,
   Input,
+  message,
   Rate,
   Row,
   Select,
   Upload,
-  Alert,
-  message,
 } from "antd";
 import { useFormik } from "formik";
 import { useEffect, useState } from "react";
+import { cloudinary } from "../../services/api/cloudinaryService";
 import { GlobalStateService } from "../../services/globalStateService";
 import { IFormData } from "../../types";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
-import { cloudinary } from "../../services/api/cloudinaryService";
 
 import styles from "./createGame.module.scss";
 
@@ -83,7 +82,7 @@ export function CreateGame() {
         }}
       >
         <Form
-          onFinish={(e) => {
+          onFinish={() => {
             formik.handleSubmit();
           }}
           variant="filled"
