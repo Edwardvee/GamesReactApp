@@ -14,18 +14,22 @@ import {
   message,
 } from "antd";
 import { useFormik } from "formik";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { GlobalStateService } from "../../services/globalStateService";
 import { IFormData } from "../../types";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
+import { cloudinary } from "../../services/api/cloudinaryService";
+
 import styles from "./createGame.module.scss";
 
 export function CreateGame() {
   const Genres = GlobalStateService.getGenres();
   const Platforms = GlobalStateService.getPlatforms();
+  const Tags = GlobalStateService.getTags();
   useEffect(() => {
     GamesUseCases.getGenres();
+    GamesUseCases.getTags();
     GamesUseCases.getPlatforms();
   }, []);
 
@@ -37,6 +41,7 @@ export function CreateGame() {
       releaseDate: "",
       rating: 0,
       backgroundImage: "",
+      screenshots: [],
       tags: [],
       genres: [],
       platforms: [],
@@ -45,7 +50,7 @@ export function CreateGame() {
     onSubmit: (values) => {
       JSONGamesUseCases.createGame(values);
       message.success("Game added successfully!");
-
+      alert(JSON.stringify(values, null, 2));
       formik.resetForm();
     },
   });
@@ -56,10 +61,15 @@ export function CreateGame() {
     label: g.name,
     value: g.id,
   }));
+  const optionsTags: SelectProps["options"] = Tags.map((g) => ({
+    label: g.name,
+    value: g.id,
+  }));
   const optionsPlatforms: SelectProps["options"] = Platforms.map((p) => ({
     label: p.name,
     value: p.id,
   }));
+  const [isFirstImage, setIsFirstImage] = useState(true);
 
   return (
     <>
@@ -70,11 +80,12 @@ export function CreateGame() {
           width: "100vw",
           height: "100vh",
           display: "flex",
-          alignItems: "stretch",
         }}
       >
         <Form
-          onFinish={formik.handleSubmit}
+          onFinish={(e) => {
+            formik.handleSubmit();
+          }}
           variant="filled"
           layout="inline"
           style={{
@@ -98,13 +109,31 @@ export function CreateGame() {
                 }}
               >
                 <Upload
-                  action="/upload.do"
+                  action={`https://api.cloudinary.com/v1_1/${cloudinary.cloudName}/image/upload`}
+                  data={{
+                    upload_preset: isFirstImage
+                      ? "gamesApp"
+                      : "gamesAppScreenshots",
+                  }}
                   listType="picture-card"
                   style={{
                     textAlign: "center",
                     justifyContent: "center",
                     alignItems: "center",
                     justifyItems: "center",
+                  }}
+                  onChange={(info) => {
+                    if (info.fileList.length === 1) {
+                      setIsFirstImage(false);
+                    }
+                    formik.setFieldValue(
+                      "backgroundImage",
+                      info.fileList[0].response
+                    );
+                    const allScreenshots = info.fileList
+                      .slice(1)
+                      .map((file) => file.response);
+                    formik.setFieldValue("screenshots", allScreenshots);
                   }}
                 >
                   <button
@@ -130,9 +159,10 @@ export function CreateGame() {
               <Select
                 mode="multiple"
                 allowClear
+                virtual={true}
                 style={{ width: "100%" }}
                 placeholder="Please select"
-                options={optionsGenres}
+                options={optionsTags}
                 value={formik.values.tags}
                 maxTagCount={"responsive"}
                 onChange={(value) => formik.setFieldValue("tags", value)}
@@ -207,6 +237,7 @@ export function CreateGame() {
                   placeholder="Please select"
                   options={optionsGenres}
                   value={formik.values.genres}
+                  maxTagCount={"responsive"}
                   optionFilterProp="label"
                   onChange={(value) => formik.setFieldValue("genres", value)}
                 ></Select>
@@ -225,6 +256,7 @@ export function CreateGame() {
                   style={{ width: "100%" }}
                   placeholder="Please select"
                   options={optionsPlatforms}
+                  maxTagCount={"responsive"}
                   value={formik.values.platforms}
                   optionFilterProp="label"
                   onChange={(value) => formik.setFieldValue("platforms", value)}

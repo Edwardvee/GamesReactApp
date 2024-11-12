@@ -6,7 +6,6 @@ import {
   IGameDetail,
   IPlatform,
   IScreenshot,
-  IScreenshots,
   ITags,
 } from "../types";
 async function getGames(
@@ -45,7 +44,6 @@ async function getGenres() {
       });
     });
     GlobalStateService.setGenres(genresData);
-    console.log(genresData);
   } catch (e) {
     console.log(e);
   }
@@ -71,6 +69,23 @@ async function getDiscoverGames(page: number, filter: IFilter) {
     console.log(e);
   }
 }
+async function getTags() {
+  try {
+    const response: any = await APIService.getTags();
+    const tagsData: ITags[] = [];
+    response.results.forEach((r: any) => {
+      tagsData.push({
+        id: r.id,
+        name: r.name,
+      });
+    });
+
+    GlobalStateService.setTags(tagsData);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 async function getPlatforms() {
   try {
     const response: any = await APIService.getPlatforms();
@@ -110,7 +125,6 @@ async function getGameInfo(game: string) {
       },
     ];
     GlobalStateService.setGameInfo(gameData);
-    console.log(gameData);
   } catch (e) {
     console.log(e);
   }
@@ -122,4 +136,5 @@ export const GamesUseCases = {
   getDiscoverGames,
   getGenres,
   getPlatforms,
+  getTags,
 };
