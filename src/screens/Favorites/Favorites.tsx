@@ -38,7 +38,7 @@ export function Favorites() {
                 id={game.id}
                 source={game.source}
                 title={game.title}
-                imgSrc={game.image || "src/assets/img/notfound.png"}
+                imgSrc={game.image || "notfound.png"}
                 releaseDate={game.releaseDate || "No info."}
                 genre={game.genres.map((g) => g.name)}
                 platforms={game.platforms.map((p) => p.platform.name)}
