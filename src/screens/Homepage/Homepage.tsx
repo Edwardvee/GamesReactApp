@@ -8,6 +8,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
 
 import type { SelectProps } from "antd";
+import { IGameCard, IGameDetail, IGenres } from "../../types";
 
 export function Homepage() {
   const screens = Grid.useBreakpoint();
@@ -55,31 +56,45 @@ export function Homepage() {
   const dGames = GlobalStateService.getDiscoverGames();
   const cGamesPage = GlobalStateService.getGamesPage();
   const gamesItems = GlobalStateService.getItems();
+  const userOptions = GlobalStateService.getUserFilterOptions();
   const [dLoading, setDLoading] = useState(true);
+
   useEffect(() => {
     GamesUseCases.getDiscoverGames(1, {
       param: "ordering",
       value: "released",
     }).finally(() => {
       carousel = document.getElementById("carousel");
-      console.log(cGames);
       setDLoading(false);
     });
-    JSONGamesUseCases.getItems();
-    console.log(cGames);
   }, []);
-  let dataLength = cGames.length;
 
   const [source, sourceState] = useState("api");
   const changeSource = (value: string) => {
     setFiltersOptionState(value);
     sourceState(value);
     refreshCatalog();
+    if (value === "api") {
+      GamesUseCases.getGames(
+        cGamesPage,
+        { param: "ordering", value: "Name" },
+        genres?.join(","),
+        platforms?.join(",")
+      ).then((newGames) => {});
+    } else {
+      JSONGamesUseCases.GetGames(cGamesPage, genres, platforms, "name").then(
+        (newGames) => {}
+      );
+    }
+    hasMoreState(true);
   };
   const [filter, setFilterState] = useState("");
   const changeFilter = (value: string) => {
     setFilterState(value);
     refreshCatalog();
+    if (source != "api") {
+      JSONGamesUseCases.GetGames(1, genres, platforms, value);
+    }
   };
   const [filtersOption, setFiltersOptionState] = useState("api");
   const filtersAPI = [
@@ -90,16 +105,23 @@ export function Homepage() {
     { value: "-added", label: "Added" },
     { value: "-updated", label: "Updated" },
   ];
-  const filtersJSON = [{ value: "name", label: "Name" }];
+  const filtersJSON = [
+    { value: "name", label: "Name" },
+    { value: "released", label: "Release date" },
+    { value: "rating", label: "Rating" },
+  ];
   const [hasMore, hasMoreState] = useState(true);
   const refreshCatalog = () => {
     GlobalStateService.deleteGames();
     GlobalStateService.setGamesPage(1);
   };
+  const refreshFilters = () => {};
 
   const Genres = GlobalStateService.getGenres();
   const Platforms = GlobalStateService.getPlatforms();
   useEffect(() => {
+    refreshCatalog();
+    refreshFilters();
     GamesUseCases.getGenres();
     GamesUseCases.getPlatforms();
   }, []);
@@ -113,17 +135,24 @@ export function Homepage() {
     value: p.id,
   }));
 
-  const [genres, genresState] = useState([""]);
-  const [platforms, platformState] = useState([""]);
+  const [genres, genresState] = useState<number[]>();
+  const [platforms, platformState] = useState<number[]>();
 
-  const setUpGenres = (value: string[]) => {
+  const setUpGenres = (value: number[]) => {
     refreshCatalog();
     genresState(value);
+    if (source != "api") {
+      JSONGamesUseCases.GetGames(1, value, platforms);
+    }
   };
-  const setUpPlatforms = (value: string[]) => {
+  const setUpPlatforms = (value: number[]) => {
     refreshCatalog();
     platformState(value);
+    if (source != "api") {
+      JSONGamesUseCases.GetGames(1, genres, value);
+    }
   };
+
   return (
     <>
       <h1 className={styles.title} style={{ paddingTop: "15px" }}>
@@ -167,13 +196,13 @@ export function Homepage() {
           <Select
             placeholder="Filter by"
             style={{ width: 120, marginInline: "20px" }}
-            defaultValue={"Name"}
+            defaultValue={"Updated"}
             maxTagCount={"responsive"}
             onChange={changeFilter}
             options={filtersOption == "api" ? filtersAPI : filtersJSON}
           />
           <Select
-            defaultValue="api"
+            defaultValue={"api"}
             style={{ width: 120 }}
             maxTagCount={"responsive"}
             onChange={changeSource}
@@ -203,38 +232,34 @@ export function Homepage() {
         </span>
 
         <InfiniteScroll
+          style={{ overflow: "hidden" }}
           dataLength={cGames.length}
           next={() => {
-            console.log(hasMore);
             if (source == "api") {
-              console.log(cGames.length);
               GamesUseCases.getGames(
                 cGamesPage,
                 {
                   param: "ordering",
-                  value: filter ? filter : "Updated",
+                  value: filter ? filter : "Name",
                 },
-                genres.join(","),
-                platforms.join(",")
+                genres?.join(","),
+                platforms?.join(",")
               ).then((newGames) => {
                 GlobalStateService.setGamesPage(cGamesPage + 1);
               });
             } else {
-              JSONGamesUseCases.GetGames(cGamesPage.toString()).then(
-                (newGames) => {
-                  const totalItems = GlobalStateService.getItems();
-                  console.log(cGames.length);
-                  console.log(totalItems);
-
-                  if (totalItems <= cGames.length) {
-                    hasMoreState(false);
-                    console.log("set false");
-                    console.log(hasMore);
-                  } else {
-                    GlobalStateService.setGamesPage(cGamesPage + 1);
-                  }
+              JSONGamesUseCases.GetGames(
+                cGamesPage,
+                genres,
+                platforms,
+                "name"
+              ).then((newGames) => {
+                if (gamesItems <= cGames.length) {
+                  hasMoreState(false);
+                } else {
+                  GlobalStateService.setGamesPage(cGamesPage + 1);
                 }
-              );
+              });
             }
           }}
           hasMore={hasMore}
