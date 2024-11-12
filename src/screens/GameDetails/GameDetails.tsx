@@ -56,7 +56,13 @@ export const GameDetails = () => {
           }}
         >
           <h1 style={{ paddingTop: "40px" }}>
-            {loading ? <Skeleton /> : game?.title}
+            {loading ? (
+              <Skeleton />
+            ) : (
+              <Link to={"/edit/" + game?.id + "?source=" + game?.source}>
+                {game?.title}
+              </Link>
+            )}
           </h1>
           <div className={styles.detailContainer}>
             <div className={styles.imgCover}>
