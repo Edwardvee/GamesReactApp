@@ -1,24 +1,13 @@
 import { IGameDetail } from "../../types";
 import { jsonAxiosInstance } from "./jsonAxiosInstance";
 
-async function getGames(param: string) {
+async function getGames(page: number) {
   try {
     const { data } = await jsonAxiosInstance.get("/games", {
-      params: { _page: param, _per_page: 10 },
+      params: { _page: page, _per_page: 10 },
     });
-    console.log(data);
+
     return data;
-  } catch (e) {
-    console.log(e);
-    return e;
-  }
-}
-async function getItems() {
-  try {
-    const { data } = await jsonAxiosInstance.get("/games", {
-      params: { _page: 1 },
-    });
-    return data.items;
   } catch (e) {
     console.log(e);
     return e;
@@ -66,5 +55,4 @@ export const JSONAPIService = {
   createGame,
   getFavorites,
   getGameInfo,
-  getItems,
 };
