@@ -8,7 +8,6 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
 
 import type { SelectProps } from "antd";
-import { IGameCard, IGameDetail, IGenres } from "../../types";
 
 export function Homepage() {
   const screens = Grid.useBreakpoint();
