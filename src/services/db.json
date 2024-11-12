@@ -1,504 +1,408 @@
 {
   "games": [
     {
-      "id": "7e24c152-664d-44ac-88a8-8867886c2560",
-      "title": "Deadlock",
-      "about": "A hero shooter moba game",
-      "releaseDate": "2024-10-02T03:00:00.000Z",
-      "rating": 4.5,
-      "backgroundImage": "",
+      "id": "c90af309-35e0-4e6e-9799-6c85f2b64c93",
+      "title": "The binding of Isaac ",
+      "about": "un juegod",
+      "releaseDate": "2020-10-15T03:00:00.000Z",
+      "rating": 5,
+      "screenshots": [
+        {
+          "asset_id": "0916bacd64217289d831a2e883f036cc",
+          "public_id": "mmdkrlgo6v3zuskvptkc",
+          "version": 1730298104,
+          "version_id": "1da4f299fef88c694bb5cbd2c9b283bd",
+          "signature": "b173c044c9f2ca6803fca74d0556b34cf6e56841",
+          "width": 639,
+          "height": 361,
+          "format": "jpg",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:21:44Z",
+          "tags": [],
+          "bytes": 23261,
+          "type": "upload",
+          "etag": "01ecce6e8eda7e049901f6f45fb4d13f",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730298104/mmdkrlgo6v3zuskvptkc.jpg",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730298104/mmdkrlgo6v3zuskvptkc.jpg",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "screenshot",
+          "access_mode": "public",
+          "original_filename": "screenshot"
+        },
+        {
+          "asset_id": "886c0e5e360af215f121c4e8db18c565",
+          "public_id": "jycnarkdfvtprwphsswx",
+          "version": 1730298106,
+          "version_id": "1af7b4ce6a6427fdb2db86ee9eab517c",
+          "signature": "e587a1c087bcb2cccb3be3b788f82fce21414dd1",
+          "width": 320,
+          "height": 180,
+          "format": "gif",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:21:46Z",
+          "tags": [],
+          "pages": 76,
+          "bytes": 920996,
+          "type": "upload",
+          "etag": "0316e5081a91ac0721c5387704bee22d",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730298106/jycnarkdfvtprwphsswx.gif",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730298106/jycnarkdfvtprwphsswx.gif",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "screenshot2",
+          "access_mode": "public",
+          "duration": 5.07,
+          "original_filename": "screenshot2"
+        },
+        {
+          "asset_id": "19191553d9432eefe18167d14eae92c7",
+          "public_id": "g1vu3nneo43ub9pm1ish",
+          "version": 1730298107,
+          "version_id": "4eca87e532a83e0f4a6d746e54d8d080",
+          "signature": "1adcbef4dbd97a683e922081fd9a9f188431c185",
+          "width": 300,
+          "height": 168,
+          "format": "jpg",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:21:47Z",
+          "tags": [],
+          "bytes": 7710,
+          "type": "upload",
+          "etag": "2f537c40847a5f837da1f1c6ab95ea0c",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730298107/g1vu3nneo43ub9pm1ish.jpg",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730298107/g1vu3nneo43ub9pm1ish.jpg",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "screenshot3",
+          "access_mode": "public",
+          "original_filename": "screenshot3"
+        }
+      ],
       "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        }
+      ],
+      "genres": [
         {
           "id": 5,
           "name": "RPG"
         }
       ],
-      "genres": [
-        {}
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
       ],
-      "platforms": [],
-      "source": "json"
+      "source": "json",
+      "backgroundImage": {
+        "asset_id": "be2dec526171b410c5385a31c23b1f2a",
+        "public_id": "h5fgdkwn76pvhcaw3tkq",
+        "version": 1730298103,
+        "version_id": "45f51076bac1dc86f1bf00b6e7ce9ad7",
+        "signature": "78445fc257d0c9a971fb2ac4c14817f4b6e437e0",
+        "width": 183,
+        "height": 275,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-10-30T14:21:43Z",
+        "tags": [],
+        "bytes": 9574,
+        "type": "upload",
+        "etag": "b15f6a07aeab851d8d109c40b37921d5",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730298103/h5fgdkwn76pvhcaw3tkq.jpg",
+        "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730298103/h5fgdkwn76pvhcaw3tkq.jpg",
+        "asset_folder": "imgGamesApp/covers",
+        "display_name": "h5fgdkwn76pvhcaw3tkq",
+        "access_mode": "public",
+        "original_filename": "images"
+      }
     },
     {
-      "id": "7e24c152-664d-44ac-88a8-3867886c2560",
-      "title": "Deasdsck",
-      "about": "A hero shooter moba game",
-      "releaseDate": "2024-10-02T03:00:00.000Z",
+      "id": "b450dcb2-9cf0-4843-9116-67bc6426b815",
+      "title": "sparking zero",
+      "about": "epico",
+      "releaseDate": "2024-10-10T03:00:00.000Z",
       "rating": 4.5,
-      "backgroundImage": "",
+      "screenshots": [
+        {
+          "asset_id": "171d5ddad57ead38e472dacce39e9dfe",
+          "public_id": "aydcywxghimtuqrwrhwv",
+          "version": 1730299855,
+          "version_id": "8a89fcbd0d36d6946e413eef4f85904e",
+          "signature": "711342c01765279ba757507a39ddd5ad264358d0",
+          "width": 1920,
+          "height": 1013,
+          "format": "jpg",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:50:55Z",
+          "tags": [],
+          "bytes": 199574,
+          "type": "upload",
+          "etag": "a090089ea3c8e794ecb3bbc1f41c71d4",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299855/aydcywxghimtuqrwrhwv.jpg",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730299855/aydcywxghimtuqrwrhwv.jpg",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "new-sparking-zero-screenshots-v0-nfjduqxjtmuc1",
+          "access_mode": "public",
+          "original_filename": "new-sparking-zero-screenshots-v0-nfjduqxjtmuc1"
+        },
+        {
+          "asset_id": "dcbce023278175649bef1f5d7416df3f",
+          "public_id": "xhxkox73qkqlugvyeml9",
+          "version": 1730299857,
+          "version_id": "c30234e44a1ef78b92a4640bb9aae5dc",
+          "signature": "b8847a9f0ba5496e027efd8bd6ad01b4b14eaf41",
+          "width": 1920,
+          "height": 1013,
+          "format": "jpg",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:50:57Z",
+          "tags": [],
+          "bytes": 268948,
+          "type": "upload",
+          "etag": "86f1d528203f3e7b7eb681cb52e2aef0",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299857/xhxkox73qkqlugvyeml9.jpg",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730299857/xhxkox73qkqlugvyeml9.jpg",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "new-sparking-zero-screenshots-v0-569fruyjtmuc1",
+          "access_mode": "public",
+          "original_filename": "new-sparking-zero-screenshots-v0-569fruyjtmuc1"
+        },
+        {
+          "asset_id": "8fd79e3ef9fa07f09dba7d330d7b827d",
+          "public_id": "ifem2w4gocztev54ybyr",
+          "version": 1730299859,
+          "version_id": "b6e48d5b137b31e78edbf9ceb65d65f7",
+          "signature": "f9d425f3419ef99ccdfdbb8e634d0f860d942d1c",
+          "width": 300,
+          "height": 168,
+          "format": "jpg",
+          "resource_type": "image",
+          "created_at": "2024-10-30T14:50:59Z",
+          "tags": [],
+          "bytes": 27592,
+          "type": "upload",
+          "etag": "59072214fddccf0d0d901347359a0a4f",
+          "placeholder": false,
+          "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299859/ifem2w4gocztev54ybyr.jpg",
+          "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730299859/ifem2w4gocztev54ybyr.jpg",
+          "asset_folder": "imgGamesApp/screenshots",
+          "display_name": "images",
+          "access_mode": "public",
+          "original_filename": "images"
+        }
+      ],
       "tags": [
         {
-          "id": 5,
-          "name": "RPG"
+          "id": 7,
+          "name": "Multiplayer"
         }
       ],
       "genres": [
-        {}
-      ],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "7e24c152-664d-42ac-88a8-8867886c2560",
-      "title": "Dfornite",
-      "about": "A hero shooter moba game",
-      "releaseDate": "2024-10-02T03:00:00.000Z",
-      "rating": 4.5,
-      "backgroundImage": "",
-      "tags": [
         {
-          "id": 5,
-          "name": "RPG"
+          "id": 10,
+          "name": "Strategy"
         }
       ],
-      "genres": [
-        {}
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
       ],
-      "platforms": [],
-      "source": "json"
+      "source": "json",
+      "backgroundImage": {
+        "asset_id": "e43be986338a9df0830fd6df7a0a4c8e",
+        "public_id": "mbcbmlbgraneeorfc6pz",
+        "version": 1730299853,
+        "version_id": "eabb7bda3b413817c48c718a8007e3bd",
+        "signature": "62397b84ae1d59d796ab412ecf183873d4af8743",
+        "width": 1200,
+        "height": 630,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-10-30T14:50:53Z",
+        "tags": [],
+        "bytes": 252386,
+        "type": "upload",
+        "etag": "3f6434414a5643669ef554acd4d0f932",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299853/mbcbmlbgraneeorfc6pz.jpg",
+        "secure_url": "https://res.cloudinary.com/dkpwt48lq/image/upload/v1730299853/mbcbmlbgraneeorfc6pz.jpg",
+        "asset_folder": "imgGamesApp/covers",
+        "display_name": "mbcbmlbgraneeorfc6pz",
+        "access_mode": "public",
+        "original_filename": "sparking_zero-1"
+      }
     },
     {
-      "id": "19e0d545-7c88-4fe3-a9f7-8d1e10b48091",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
+      "id": "18748a42-e60c-4fe6-a8ac-a8c15b9a0506",
+      "title": "Pepe game",
+      "about": "FRAY spawned from the story of Tullio and Ziya, two deeply bonded brothers who share a passion for movement, hip hop culture, and a competitive zeal for video games.  Their brotherly connection frays as the elder brother Ziya is lured into a wondrous video game world by Lucious, a beguiling AI character he conjures up for a gaming contest.\nThe contest calls for building a great puzzle game, but as Ziya’s foray into AI blurs the line between real and virtual, the brothers are drawn into a real-life quandary in which restoring the frayed connections of their relationship means confronting the reality that people are the greatest puzzles of all.\nThe FRAY team invites fans into both worlds through a hip hop dance theatre production, and through  a video game for PC's launching on Steam June 15th.\nFRAY Game is an imaginative, rhythm based puzzle game in which the player takes control of Tullio to light the way through a maze-like world of isometric dance puzzles and rhythm based challenges.\nAlong the way, cunning enemies attempt to break the bond between the brothers and seduce Ziya into the underworld forever. By moving to the rhythm and mastering energy-blasting dance routines, Tullio must keep improving his dancing skills to acquire enough energy to carry his ailing brother to the final level’s end - an allegorical home.  FRAY Game was built by Herobeat Studios in Barcelona. Unreal Engine.\nThe FRAY Show is a unique and game-changing new production that intersects hip hop dance theatre with gaming and a conceptual AI world, and is coming to the state of the art stage of Lilian Baylis Studio, Sadlers Wells for an exclusive two night run on Friday 21st and Saturday 22nd June, with tickets on sale now here.\n\nThe FRAY Show brings together an innovative team of creators, including writer/Executive Producer/Director Kate Duhamel of Candy Bomber Productions and the Olivier award nominated MC, dancer, director and founder of Breakin’ Convention and maverick hip hop dance pioneer  Jonzi D, who is FRAY’s Artistic Director, with music supervision by respected UK hip hop artist Micall Parknsn, live music performed by the award-winning saxophonist, composer and broadcaster Soweto Kinch, with choreography by dance captain Ola Papiór.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/c31/c315cfadd3d51c8e9d266311054189a9.jpg",
+      "genres": [
+        {
+          "id": 40,
+          "name": "Casual"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
+      ],
       "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 149,
+          "name": "Tag not found"
+        },
+        {
+          "id": 15,
+          "name": "Tag not found"
+        },
+        {
+          "id": 88,
+          "name": "Tag not found"
+        },
+        {
+          "id": 165,
+          "name": "Tag not found"
+        },
+        {
+          "id": 571,
+          "name": "Tag not found"
+        },
+        {
+          "id": 82,
+          "name": "Tag not found"
+        },
+        {
+          "id": 61,
+          "name": "Tag not found"
+        },
+        {
+          "id": 138,
+          "name": "Tag not found"
+        },
+        {
+          "id": 305,
+          "name": "Tag not found"
+        },
+        {
+          "id": 166,
+          "name": "Tag not found"
+        },
+        {
+          "id": 164,
+          "name": "Tag not found"
+        },
+        {
+          "id": 572,
+          "name": "Tag not found"
+        },
+        {
+          "id": 279,
+          "name": "Tag not found"
+        },
+        {
+          "id": 207,
+          "name": "Tag not found"
+        },
+        {
+          "id": 49955,
+          "name": "Tag not found"
+        },
+        {
+          "id": 91686,
+          "name": "Tag not found"
+        }
+      ],
+      "source": "json",
+      "screenshots": [
+        "https://media.rawg.io/media/screenshots/8b2/8b2e455f31e8533970182906ca6d6fad.jpg",
+        "https://media.rawg.io/media/screenshots/653/65342269538ba7f43f0ddcc4d2d98504.jpg",
+        "https://media.rawg.io/media/screenshots/641/6413b35b0d0c1f90b27a4aaba227a195.jpg",
+        "https://media.rawg.io/media/screenshots/565/565ca38ca0b61b099217840e633c3eab.jpg",
+        "https://media.rawg.io/media/screenshots/3ca/3ca664d0996122c185b2fede9b788391.jpg",
+        "https://media.rawg.io/media/screenshots/c31/c315cfadd3d51c8e9d266311054189a9.jpg"
+      ]
     },
     {
-      "id": "44cc3e8f-c0fd-43e6-87d4-5a8acdd7db91",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "58ea2e63-ad65-4e80-9833-09e3b65b0dbf",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "ca676b2c-7aaa-48c3-8276-0dd2abba6237",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "608570ec-668f-426f-a5e8-461cf1d1d09e",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "a57664ea-d56e-45b7-9f7c-21e6c46c5533",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "fa329577-049c-4e1b-9518-7f767357525f",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "2d29ea72-df41-4923-ab96-c35f916c95eb",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "8c79ba1b-1c8b-4f40-af3a-3491053a7848",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "a1ed9ab9-ba0a-446c-9c0b-558d9f216247",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "cced868c-17dd-4f28-88da-c8f54a4378b7",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "5ec2796d-7741-4ab7-9fa4-8d343bc733eb",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "0dc2dcda-de2b-4e02-be8c-c81b2854aa8b",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "619102f7-6a2d-4553-87e9-1572ac893fd6",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "ed305e18-70bf-48eb-8f5e-3268609ef9bc",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "613f791a-b50a-4e91-8847-7ad8d25daa50",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "76fc45f2-fd64-4c6e-98bb-cf6ba62e54f7",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "fbe137f1-2419-49f7-8453-11bfc9dc532b",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "999edda3-5f2c-468a-8e24-fd79ac9b7fcd",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "06a1b7fd-7a1d-4d72-9acc-cc40003457aa",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "f23d2006-6d75-4282-983b-88841cb786bd",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "73b169c6-2466-4323-b1b1-7d8c6edfebda",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "4f878930-46fb-4d82-bd83-a44b55459305",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "287952ad-4b6f-4d72-9a21-bdcd8bc30efc",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "c558ad8d-8ab0-4d53-8ff1-f6e3a2809644",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "1a980f33-6b89-49ad-acaa-447fbe501388",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "d8d956d6-bb87-44e5-b212-5081bea0e98c",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "30932c45-569c-4e42-9cc2-c20d3f95de37",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "741f729e-a559-4afc-8ddc-cee6beea76da",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "9daa2961-510d-4752-bd21-64b84cd6e09a",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "7f41c788-f46f-435b-854d-151939c0fee6",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "767a134c-922f-4822-8b2a-07f43b8e481e",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "af9f2751-6f63-4e53-ad9e-569a8a25b8f0",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "34bdcd40-efba-4a82-8f16-75056e421c3e",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "676cabd1-ad3c-4c42-a107-d74aa3cc2291",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "45d5c14c-9bd9-40d3-a7a5-b387a29b4798",
-      "title": "",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
-      "source": "json"
-    },
-    {
-      "id": "5052266a-4b8a-41a3-8fe1-7092142e748d",
-      "title": "Ultima entrada",
-      "about": "",
-      "releaseDate": "",
-      "rating": 0,
-      "backgroundImage": "",
-      "tags": [],
-      "genres": [],
-      "platforms": [],
+      "id": "60616a1f-b11a-4668-a215-efd006e84bfb",
+      "title": "sparking zero 2",
+      "about": "epico",
+      "backgroundImage": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299853/mbcbmlbgraneeorfc6pz.jpg",
+      "screenshots": [
+        "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299855/aydcywxghimtuqrwrhwv.jpg",
+        "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299857/xhxkox73qkqlugvyeml9.jpg",
+        "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299859/ifem2w4gocztev54ybyr.jpg"
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
+      ],
+      "rating": 4.5,
+      "releaseDate": "2024-10-10T03:00:00.000Z",
+      "tags": [
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        }
+      ],
       "source": "json"
     }
   ],
