@@ -64,7 +64,7 @@ async function getGameInfo(game: string) {
       axiosInstance.get("/games/" + game + "/screenshots"),
     ]);
     const data = { game: gameid.data, screenshots: screenshots.data.results };
-    console.log(data);
+
     return data;
   } catch (e) {
     console.log(e);
@@ -77,4 +77,5 @@ export const APIService = {
   getGameInfo,
   getGenres,
   getPlatforms,
+  getTags,
 };
