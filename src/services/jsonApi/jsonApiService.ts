@@ -32,10 +32,19 @@ async function createGame(game: IGameDetail) {
     return e;
   }
 }
+async function removeGameFavorite(game: string) {
+  try {
+    await jsonAxiosInstance.delete("/your-library/", {
+      params: { id: game },
+    });
+  } catch (e) {
+    console.log(e);
+    return e;
+  }
+}
 async function addGameFavorite(game: IGameDetail) {
   try {
-    const { data } = await jsonAxiosInstance.post("/your-library/", game);
-    return data;
+    await jsonAxiosInstance.post("/your-library/", game);
   } catch (e) {
     console.log(e);
     return e;
@@ -57,4 +66,5 @@ export const JSONAPIService = {
   createGame,
   getFavorites,
   getGameInfo,
+  removeGameFavorite,
 };
