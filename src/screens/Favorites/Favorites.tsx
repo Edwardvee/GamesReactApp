@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { CardGameD } from "../../components/CardGameDefault/CardGameDefault";
 import { GlobalStateService } from "../../services/globalStateService";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
+import styles from "./index.module.scss";
 export function Favorites() {
   const screens = Grid.useBreakpoint();
 
@@ -14,11 +15,13 @@ export function Favorites() {
     return 24; // 1 column on smaller screens
   };
   const games = GlobalStateService.getFavorites();
+  const favIDS = GlobalStateService.getFavoritesIDS();
+
   useEffect(() => {
     JSONGamesUseCases.GetFavorites();
-    console.log(games);
-  }, []);
 
+    console.log(favIDS);
+  }, []);
   return (
     <>
       <div
@@ -33,9 +36,15 @@ export function Favorites() {
         <h1 style={{ textAlign: "center" }}>Your library</h1>
         <Row gutter={[16, 4]} justify="center" align={"middle"}>
           {games.map((game) => (
-            <Col key={game.id} span={getColumnSpan()} style={{ flex: 0 }}>
+            <Col
+              key={game.id}
+              span={getColumnSpan()}
+              className={styles.columnFavorites}
+              style={{ flex: 0, zIndex: 1, maxHeight: "235px" }}
+            >
               <CardGameD
                 id={game.id}
+                fav={favIDS.includes(game.id) ? true : false}
                 source={game.source}
                 title={game.title}
                 imgSrc={game.image || "notfound.png"}

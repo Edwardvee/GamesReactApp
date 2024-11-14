@@ -2,6 +2,7 @@ import { CheckCircleFilled, PlusCircleFilled } from "@ant-design/icons";
 import { Card } from "antd";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { GamesUseCases } from "../../useCases/gamesUseCases";
 import styles from "./index.module.scss";
 
 interface CardComponent {
@@ -12,6 +13,7 @@ interface CardComponent {
   genre: string[];
   platforms: string[];
   source: string;
+  fav: boolean;
 }
 
 export const CardGameD: React.FC<CardComponent> = ({
@@ -21,9 +23,11 @@ export const CardGameD: React.FC<CardComponent> = ({
   releaseDate,
   genre,
   platforms,
+  fav,
   source,
 }) => {
-  const [favState, setFavState] = useState(false);
+  const [favState, setFavState] = useState(fav);
+
   return (
     <>
       <Card
@@ -52,6 +56,7 @@ export const CardGameD: React.FC<CardComponent> = ({
               className={styles.PlusHover}
               onClick={() => {
                 setFavState(false);
+                GamesUseCases.removeFavorites(id);
               }}
             />
           ) : (
@@ -59,6 +64,7 @@ export const CardGameD: React.FC<CardComponent> = ({
               className={styles.PlusHover}
               onClick={() => {
                 setFavState(true);
+                GamesUseCases.setFavorites(id, source);
               }}
             />
           )}
