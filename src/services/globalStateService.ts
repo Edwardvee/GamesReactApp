@@ -1,4 +1,4 @@
-import { create } from "zustand";
+import zustand, { create } from "zustand";
 import {
   IGameCard,
   IGameDetail,
@@ -12,6 +12,7 @@ interface IGlobalDataState {
   games: IGameCard[];
   game: IGameDetail[];
   favorites: IGameCard[];
+  favoritesIds: string[];
   discoverGames: IGameCard[];
   page: number;
   genres: IGenres[];
@@ -25,6 +26,7 @@ const initialStoreData: IGlobalDataState = {
   games: [],
   game: [],
   genres: [],
+  favoritesIds: [],
   favorites: [],
   discoverGames: [],
   platforms: [],
@@ -89,6 +91,16 @@ function getFavorites() {
 function setFavorites(favorites: IGameCard[]) {
   globalDataState.setState((prev) => {
     return { ...prev, favorites };
+  });
+}
+function getFavoritesIDS() {
+  return globalDataState((state) => {
+    return state.favoritesIds;
+  });
+}
+function setFavoritesID(favoritesIds: string[]) {
+  globalDataState.setState((prev) => {
+    return { ...prev, favoritesIds };
   });
 }
 function getGenres() {
@@ -193,4 +205,6 @@ export const GlobalStateService = {
   getFilteredGames,
   setUserFilterOptions,
   getUserFilterOptions,
+  getFavoritesIDS,
+  setFavoritesID,
 };
