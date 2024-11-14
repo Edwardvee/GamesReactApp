@@ -20,24 +20,48 @@ export function Homepage() {
   };
   let carousel = document.getElementById("carousel");
   useEffect(() => {
+    GamesUseCases.getDiscoverGames(1, {
+      param: "ordering",
+      value: "released",
+    }).finally(() => {
+      carousel = document.getElementById("carousel");
+      setDLoading(false);
+    });
+  }, []);
+  useEffect(() => {
     let isDragging = false;
     let startX: number;
     let startScrollLeft: number;
+    let currentTranslateX = 0;
+    let prevTranslateX = 0;
+
     const dragStart = (e: any) => {
       isDragging = true;
-      carousel?.classList.add("dragging");
       startX = e.pageX;
-      startScrollLeft = carousel!.scrollLeft;
+      prevTranslateX = currentTranslateX; // Guarda la última posición al iniciar
     };
+
     const dragging = (e: any) => {
       if (!isDragging) return;
       const x = e.pageX - startX;
-      carousel!.scrollLeft = startScrollLeft - x;
+      currentTranslateX = prevTranslateX + x; // Invierte el signo para que el movimiento sea en la dirección correcta
+
+      // Limitar la posición para que no se desplace demasiado hacia los extremos
+      const maxTranslateX = 0;
+      const minTranslateX = -(carousel!.scrollWidth - carousel!.offsetWidth);
+      currentTranslateX = Math.max(
+        minTranslateX,
+        Math.min(maxTranslateX, currentTranslateX)
+      );
+
+      carousel!.style.transform = `translateX(${currentTranslateX}px)`;
     };
+
     const dragStop = () => {
       isDragging = false;
-      carousel?.classList.remove("dragging");
+      carousel!.style.transition = "transform 0.1s ease-out"; // Agrega una transición suave
     };
+
     carousel?.addEventListener("mousemove", dragging);
     carousel?.addEventListener("mousedown", dragStart);
     carousel?.addEventListener("mouseup", dragStop);
@@ -54,18 +78,12 @@ export function Homepage() {
   const cGames = GlobalStateService.getGames();
   const dGames = GlobalStateService.getDiscoverGames();
   const cGamesPage = GlobalStateService.getGamesPage();
+  const favIDS = GlobalStateService.getFavoritesIDS();
   const gamesItems = GlobalStateService.getItems();
   //const userOptions = GlobalStateService.getUserFilterOptions();
   const [dLoading, setDLoading] = useState(true);
-
   useEffect(() => {
-    GamesUseCases.getDiscoverGames(1, {
-      param: "ordering",
-      value: "released",
-    }).finally(() => {
-      carousel = document.getElementById("carousel");
-      setDLoading(false);
-    });
+    JSONGamesUseCases.getFavsID();
   }, []);
 
   const [source, sourceState] = useState("api");
@@ -167,6 +185,7 @@ export function Homepage() {
                 <CardGameD
                   id={game.id}
                   source={game.source}
+                  fav={favIDS.includes(game.id) ? true : false}
                   title={game.title || "No info."}
                   imgSrc={game.image || "notfound.png"}
                   releaseDate={game.releaseDate || "No info."}
@@ -272,18 +291,19 @@ export function Homepage() {
             </p>
           }
         >
-          <Row
-            gutter={[16, 4]}
-            justify="center"
-            align={"middle"}
-            style={{ marginTop: "20px" }}
-          >
+          <Row gutter={[16, 4]} justify="center" style={{ marginTop: "20px" }}>
             {cGames.map((game) => (
-              <Col key={game.id} span={getColumnSpan()} style={{ flex: 0 }}>
+              <Col
+                key={game.id}
+                span={getColumnSpan()}
+                className={styles.columnCatalog}
+                style={{ flex: 0, zIndex: 1, maxHeight: "235px" }}
+              >
                 <CardGameD
                   id={game.id}
                   source={game.source}
                   title={game.title}
+                  fav={favIDS.includes(game.id) ? true : false}
                   imgSrc={game.image || "notfound.png"}
                   releaseDate={game.releaseDate || "No info."}
                   genre={game.genres.map((g) => g.name)}

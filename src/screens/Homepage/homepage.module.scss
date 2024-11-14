@@ -5,14 +5,16 @@
 .discoverSection {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
   margin: auto;
   margin-bottom: 2vw;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .carousel {
+  transform: translateX(0);
+  transition: transform 0.2s ease;
+  max-height: 235px;
   margin: 16px;
   display: grid;
   grid-auto-flow: column;
@@ -22,8 +24,11 @@
   align-items: flex-start;
   z-index: 20;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
   grid-area: inherit;
+  &:hover {
+    z-index: 10000 !important;
+  }
 }
 
 @media only screen and (min-width: 2000px) and (min-height: 500px) and (max-height: 1600px) {
@@ -54,7 +59,11 @@
     max-width: 1200px;
   }
 }
-
+.columnCatalog {
+  &:hover {
+    z-index: 10000 !important;
+  }
+}
 .catalogSection {
   width: 100vw;
   height: 100vh;
