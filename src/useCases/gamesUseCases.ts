@@ -154,7 +154,7 @@ async function setFavorites(id: string, src: string) {
     if (src == "api") {
       const response: any = await APIService.getGameInfo(id);
       const game: IGameDetail = {
-        id: response.game.id,
+        id: response.game.id.toString(),
         title: response.game.name,
         about: response.game.description_raw,
         backgroundImage: response.game.background_image,

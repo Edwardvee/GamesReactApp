@@ -34,9 +34,7 @@ async function createGame(game: IGameDetail) {
 }
 async function removeGameFavorite(game: string) {
   try {
-    await jsonAxiosInstance.delete("/your-library/", {
-      params: { id: game },
-    });
+    await jsonAxiosInstance.delete("/your-library/" +  game );
   } catch (e) {
     console.log(e);
     return e;

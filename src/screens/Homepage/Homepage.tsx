@@ -10,6 +10,7 @@ import styles from "./homepage.module.scss";
 import type { SelectProps } from "antd";
 
 export function Homepage() {
+
   const screens = Grid.useBreakpoint();
   const getColumnSpan = () => {
     if (screens.xl) return 8;
@@ -19,14 +20,20 @@ export function Homepage() {
     return 24; // 1 column on smaller screens
   };
   let carousel = document.getElementById("carousel");
+  const [favIDS, setFavIDS] = useState([""]);
+  const ids = GlobalStateService.getFavoritesIDS();
   useEffect(() => {
-    GamesUseCases.getDiscoverGames(1, {
-      param: "ordering",
-      value: "released",
-    }).finally(() => {
-      carousel = document.getElementById("carousel");
-      setDLoading(false);
-    });
+    JSONGamesUseCases.getFavsID().then(()=>{
+      setFavIDS(ids)
+      GamesUseCases.getDiscoverGames(1, {
+        param: "ordering",
+        value: "released",
+      }).finally(() => {
+        carousel = document.getElementById("carousel");
+        setDLoading(false);
+      });
+    })
+   
   }, []);
   useEffect(() => {
     let isDragging = false;
@@ -78,13 +85,14 @@ export function Homepage() {
   const cGames = GlobalStateService.getGames();
   const dGames = GlobalStateService.getDiscoverGames();
   const cGamesPage = GlobalStateService.getGamesPage();
-  const favIDS = GlobalStateService.getFavoritesIDS();
+
   const gamesItems = GlobalStateService.getItems();
+ 
+
+
   //const userOptions = GlobalStateService.getUserFilterOptions();
   const [dLoading, setDLoading] = useState(true);
-  useEffect(() => {
-    JSONGamesUseCases.getFavsID();
-  }, []);
+
 
   const [source, sourceState] = useState("api");
   const changeSource = (value: string) => {

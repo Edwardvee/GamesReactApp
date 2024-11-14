@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
-const baseUrl = import.meta.env.VITE_API_URL;
-//"https://api.rawg.io/api";
+const baseUrl = import.meta.env.VITE_API_URL
+//;
 
 export const axiosInstance = axios.create({
   baseURL: baseUrl,
