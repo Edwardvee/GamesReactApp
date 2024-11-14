@@ -1,11 +1,12 @@
 import axios, { AxiosError } from "axios";
 const baseUrl = import.meta.env.VITE_API_URL;
+//"https://api.rawg.io/api";
 
 export const axiosInstance = axios.create({
   baseURL: baseUrl,
   params: { key: import.meta.env.VITE_API_KEY },
 });
-
+//import.meta.env.VITE_API_KEY;
 axiosInstance.interceptors.request.use((config) => {
   return config;
 });
