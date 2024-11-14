@@ -408,22 +408,466 @@
   ],
   "your-library": [
     {
-      "id": "702277d8-32a6-4085-bbd6-4ea193d45680",
-      "title": "Deadlock 2",
-      "about": "XDD",
-      "rating": 5.2,
+      "id": "992500",
+      "title": "Chronicles of the Second War: Rise of the Alliance",
+      "about": "Lothar wants you! To take arms against the brutal Horde, to avenge the fallen and protect the realms.\nThe release of the first playable Act of the campaign is planned for Q1 2025.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/d0c/d0ccef959d8c024f0e9b17ced7025142.jpg",
       "genres": [
         {
-          "name": "Hero Shooter"
+          "id": 5,
+          "name": "RPG"
         },
         {
+          "id": 10,
+          "name": "Strategy"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 2860,
+          "name": "warcraft"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4121251,
+          "image": "https://media.rawg.io/media/screenshots/fbf/fbf59598dc2e9ac58b1ebe11ad6e523e.jpg",
+          "width": 1364,
+          "height": 711
+        },
+        {
+          "id": 4121252,
+          "image": "https://media.rawg.io/media/screenshots/65a/65a0575191af0fed2e7cf91d545e3b10.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121253,
+          "image": "https://media.rawg.io/media/screenshots/176/176bdc09a6169aa2b2ef7afe6cd48312.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121254,
+          "image": "https://media.rawg.io/media/screenshots/026/026cd2d662ee6f8c64a0a68cb095f5bf.jpg",
+          "width": 950,
+          "height": 600
+        },
+        {
+          "id": 4121255,
+          "image": "https://media.rawg.io/media/screenshots/708/70880283f45ab840ce83fc4a7b8c6a9b.jpg",
+          "width": 2560,
+          "height": 1440
+        },
+        {
+          "id": 4121256,
+          "image": "https://media.rawg.io/media/screenshots/2a7/2a7086b010ad4cb7954461ea9bf1f834.jpg",
+          "width": 2560,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "4200",
+      "title": "Portal 2",
+      "about": "Portal 2 is a first-person puzzle game developed by Valve Corporation and released on April 19, 2011 on Steam, PS3 and Xbox 360. It was published by Valve Corporation in digital form and by Electronic Arts in physical form. \n\nIts plot directly follows the first game's, taking place in the Half-Life universe. You play as Chell, a test subject in a research facility formerly ran by the company Aperture Science, but taken over by an evil AI that turned upon its creators, GladOS. After defeating GladOS at the end of the first game but failing to escape the facility, Chell is woken up from a stasis chamber by an AI personality core, Wheatley, as the unkempt complex is falling apart. As the two attempt to navigate through the ruins and escape, they stumble upon GladOS, and accidentally re-activate her...\n\nPortal 2's core mechanics are very similar to the first game's ; the player must make their way through several test chambers which involve puzzles. For this purpose, they possess a Portal Gun, a weapon capable of creating teleportation portals on white surfaces. This seemingly simple mechanic and its subtleties coupled with the many different puzzle elements that can appear in puzzles allows the game to be easy to start playing, yet still feature profound gameplay. The sequel adds several new puzzle elements, such as gel that can render surfaces bouncy or allow you to accelerate when running on them.\n\nThe game is often praised for its gameplay, its memorable dialogue and writing and its aesthetic. Both games in the series are responsible for inspiring most puzzle games succeeding them, particularly first-person puzzle games. The series, its characters and even its items such as the portal gun and the companion cube have become a cultural icon within gaming communities.\n\nPortal 2 also features a co-op mode where two players take on the roles of robots being led through tests by GladOS, as well as an in-depth level editor.",
+      "backgroundImage": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.6,
+      "releaseDate": "2011-04-18",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 7808,
+          "name": "steam-trading-cards"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 411,
+          "name": "cooperative"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 32,
+          "name": "Sci-fi"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 189,
+          "name": "Female Protagonist"
+        },
+        {
+          "id": 123,
+          "name": "Comedy"
+        },
+        {
+          "id": 75,
+          "name": "Local Co-Op"
+        },
+        {
+          "id": 11669,
+          "name": "stats"
+        },
+        {
+          "id": 40852,
+          "name": "Steam Workshop"
+        },
+        {
+          "id": 25,
+          "name": "Space"
+        },
+        {
+          "id": 40838,
+          "name": "Includes level editor"
+        },
+        {
+          "id": 40833,
+          "name": "Captions available"
+        },
+        {
+          "id": 40834,
+          "name": "Commentary available"
+        },
+        {
+          "id": 87,
+          "name": "Science"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 99018,
+          "image": "https://media.rawg.io/media/screenshots/221/221a03c11e5ff9f765d62f60d4b4cbf5.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99019,
+          "image": "https://media.rawg.io/media/screenshots/173/1737ff43c14f40294011a209b1012875.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99020,
+          "image": "https://media.rawg.io/media/screenshots/b11/b11a2ae0664f0e8a1ef2346f99df26e1.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99021,
+          "image": "https://media.rawg.io/media/screenshots/9b1/9b107a790909b31918ebe2f40547cc85.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99022,
+          "image": "https://media.rawg.io/media/screenshots/d05/d058fc7f7fa6128916c311eb14267fed.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99023,
+          "image": "https://media.rawg.io/media/screenshots/415/41543dcc12dffc8e97d85a56ad42cda8.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "5286",
+      "title": "Tomb Raider (2013)",
+      "about": "A cinematic revival of the series in its action third person form, Tomb Rider follows Lara in her least experience period of life – her youth. Heavily influenced by Naughty Dog’s “Uncharted”, the game is a mix of everything, from stealth and survival to combat and QTE action scenes.\r\nYoung Lara Croft arrives on the Yamatai, lost island near Japan, as the leader of the expedition in search of the Yamatai Kingdom, with a diverse team of specialists. But shipwreck postponed the successful arrival and seemingly forgotten island is heavily populated with hostile inhabitants, cultists of Solarii Brotherhood.\r\nThe game will be graphic at times, especially after failed QTE’s during some of the survival scenes, but overall players will enjoy classic action adventure, reminiscent of the beginning of the series. This game is not a direct sequel or continuation of existing sub-series within the franchise, but a reboot, setting up Tomb Raider to represent modern gaming experience.\r\nThe game has RPG elements and has a world, which you can explore during the story campaign and after the completion. As well as multiplayer mode, where 2 teams (4 scavengers and 4 survivors) are clashing in 3 game modes while using weapons and environments from the single-player campaign.",
+      "backgroundImage": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+      "genres": [
+        {
+          "id": 4,
           "name": "Action"
         },
         {
-          "name": "Moba"
+          "id": 6,
+          "name": "Fighting"
         }
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/header.jpg?t=1727395347",
+      "platforms": [
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {
+            "minimum": "Minimum:\r\n\r\nOS: macOS 10.9.1\r\n\r\nProcessor: 2.0GHz Intel or greater\r\n\r\nMemory: 4GB\r\n\r\nGraphics: 512Mb AMD 4850, 512Mb Nvidia 650M, Intel HD4000\r\n\r\nHard Drive: 14GB"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS:Windows XP / Windows Vista / Windows 7\nProcessor:1.8 GHz Processor\nMemory:512 MB RAM\nGraphics:3D graphics card compatible with DirectX 9\nDirectX®:9.0\nHard Drive:2 GB HD space"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.06,
+      "releaseDate": "2013-03-05",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 24,
+          "name": "RPG"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 6,
+          "name": "Exploration"
+        },
+        {
+          "id": 193,
+          "name": "Classic"
+        },
+        {
+          "id": 189,
+          "name": "Female Protagonist"
+        },
+        {
+          "id": 15,
+          "name": "Stealth"
+        },
+        {
+          "id": 69,
+          "name": "Action-Adventure"
+        },
+        {
+          "id": 150,
+          "name": "Third-Person Shooter"
+        },
+        {
+          "id": 74,
+          "name": "Retro"
+        },
+        {
+          "id": 110,
+          "name": "Cinematic"
+        },
+        {
+          "id": 269,
+          "name": "Quick-Time Events"
+        },
+        {
+          "id": 126,
+          "name": "Dinosaurs"
+        },
+        {
+          "id": 306,
+          "name": "Lara Croft"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 99160,
+          "image": "https://media.rawg.io/media/screenshots/4f9/4f9d5efdecfb63cb99f1baa4c0ceb3bf.jpg",
+          "width": 1920,
+          "height": 1079
+        },
+        {
+          "id": 99161,
+          "image": "https://media.rawg.io/media/screenshots/80f/80f373082b2a74da3f9c3fe2b877dcd0.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99162,
+          "image": "https://media.rawg.io/media/screenshots/a87/a8733e877f8fbe45e4a727c22a06aa2e.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99163,
+          "image": "https://media.rawg.io/media/screenshots/3f9/3f91678c6805a76419fa4ea3a045a909.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99164,
+          "image": "https://media.rawg.io/media/screenshots/417/4170bf07be43a8d8249193883f87f1c1.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 99165,
+          "image": "https://media.rawg.io/media/screenshots/2a4/2a4250f83ad9e959d8b4ca9376ae34ea.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "4291",
+      "title": "Counter-Strike: Global Offensive",
+      "about": "Counter-Strike is a multiplayer phenomenon in its simplicity. No complicated narratives to explain the source of the conflict, no futuristic and alien threats, but counter-terrorists against terrorists. Arena shooter at its core, CS:GO provides you with various methods of disposing enemies and reliant on cooperation within the team. During the round of the classical clash mode, you will gradually receive currency to purchase different equipment. Each player can carry a primary weapon, secondary pistol, knife and a set of grenades, which all can change the battle if wielded by the skilled player. \r\nObjectives are clear and vary from map to map, from game mode to game mode. Stop the terrorists from planting explosives, stop the counter-terrorist from retrieving the hostages, kill everyone who isn’t you and just perform the best with.\r\nCS:GO is one of the major cybersport discipline, which makes playing it more exciting to some players. Aside from purchasing the game, CS:GO is infamous for its loot case system, that requires players to purchase keys, in order to open said cases. Customization items consist of weapon skins, weapon stickers, and sprays that do not affect gameplay and have purely visual value to the player.",
+      "backgroundImage": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter"
+        }
+      ],
       "platforms": [
         {
           "platform": {
@@ -431,22 +875,1436 @@
             "name": "PC"
           },
           "requirements": {
-            "minimum": "aa",
-            "recommended": "aaa"
-          },
-          "releasedAt": "11-11-1111"
-        }
-      ],
-      "releaseDate": "24-8-2024",
-      "tags": [
-        {
-          "name": "FPS"
+            "minimum": "Minimum:\nOS: Windows® 7/Vista/XP\nProcessor: Intel® Core™ 2 Duo E6600 or AMD Phenom™ X3 8750 processor or better\nMemory: 2 GB RAM\nGraphics: Video card must be 256 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 3.0\nDirectX: Version 9.0c\nStorage: 15 GB available space"
+          }
         },
         {
+          "platform": {
+            "id": 6,
+            "name": "Linux"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 3.56,
+      "releaseDate": "2012-08-21",
+      "tags": [
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 7,
           "name": "Multiplayer"
         },
         {
-          "name": "Hero Shooter"
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 7808,
+          "name": "steam-trading-cards"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 411,
+          "name": "cooperative"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
+        },
+        {
+          "id": 80,
+          "name": "Tactical"
+        },
+        {
+          "id": 11669,
+          "name": "stats"
+        },
+        {
+          "id": 40852,
+          "name": "Steam Workshop"
+        },
+        {
+          "id": 157,
+          "name": "PvP"
+        },
+        {
+          "id": 62,
+          "name": "Moddable"
+        },
+        {
+          "id": 70,
+          "name": "War"
+        },
+        {
+          "id": 40837,
+          "name": "In-App Purchases"
+        },
+        {
+          "id": 77,
+          "name": "Realistic"
+        },
+        {
+          "id": 11,
+          "name": "Team-Based"
+        },
+        {
+          "id": 131,
+          "name": "Fast-Paced"
+        },
+        {
+          "id": 81,
+          "name": "Military"
+        },
+        {
+          "id": 170,
+          "name": "Competitive"
+        },
+        {
+          "id": 40856,
+          "name": "Valve Anti-Cheat enabled"
+        },
+        {
+          "id": 73,
+          "name": "e-sports"
+        },
+        {
+          "id": 245,
+          "name": "Trading"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 81644,
+          "image": "https://media.rawg.io/media/screenshots/ff1/ff16661bb15f7969b44f6c4118870e44.jpg",
+          "width": 1659,
+          "height": 706
+        },
+        {
+          "id": 81645,
+          "image": "https://media.rawg.io/media/screenshots/41b/41bb769d247412eac3336dec934aed72.jpg",
+          "width": 1680,
+          "height": 715
+        },
+        {
+          "id": 81646,
+          "image": "https://media.rawg.io/media/screenshots/754/754545acdbf71f56e8902a07c7d20696.jpg",
+          "width": 1581,
+          "height": 673
+        },
+        {
+          "id": 81647,
+          "image": "https://media.rawg.io/media/screenshots/fd8/fd873cab4c66db0b8e85d8a66e940074.jpg",
+          "width": 1671,
+          "height": 940
+        },
+        {
+          "id": 81648,
+          "image": "https://media.rawg.io/media/screenshots/7db/7db2954f7908b6749c36a5f3c9052f65.jpg",
+          "width": 1670,
+          "height": 715
+        },
+        {
+          "id": 81649,
+          "image": "https://media.rawg.io/media/screenshots/337/337a3e98b5933f456a2b37b59fab5f39.jpg",
+          "width": 1000,
+          "height": 562
+        }
+      ]
+    },
+    {
+      "id": "5679",
+      "title": "The Elder Scrolls V: Skyrim",
+      "about": "The fifth game in the series, Skyrim takes us on a journey through the coldest region of Cyrodiil. Once again player can traverse the open world RPG armed with various medieval weapons and magic, to become a hero of Nordic legends –Dovahkiin, the Dragonborn. After mandatory character creation players will have to escape not only imprisonment but a fire-breathing dragon. Something Skyrim hasn’t seen in centuries.",
+      "backgroundImage": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS: Windows 7/Vista/XP PC (32 or 64 bit)\nProcessor: Dual Core 2.0GHz or equivalent processor\nMemory: 2GB System RAM\nHard Disk Space: 6GB free HDD Space\nVideo Card: Direct X 9.0c compliant video card with 512 MB of RAM\nSound: DirectX compatible sound card\n",
+            "recommended": "Recommended:\nProcessor: Quad-core Intel or AMD CPU\nMemory: 4GB System RAM\nVideo Card: DirectX 9.0c compatible NVIDIA or AMD ATI video card with 1GB of RAM (Nvidia GeForce GTX 260 or higher; ATI Radeon 4890 or higher)\n"
+          }
+        },
+        {
+          "platform": {
+            "id": 186,
+            "name": "Xbox Series S/X"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 187,
+            "name": "PlayStation 5"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.42,
+      "releaseDate": "2011-11-11",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 7808,
+          "name": "steam-trading-cards"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack"
+        },
+        {
+          "id": 24,
+          "name": "RPG"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 40845,
+          "name": "Partial Controller Support"
+        },
+        {
+          "id": 64,
+          "name": "Fantasy"
+        },
+        {
+          "id": 37,
+          "name": "Sandbox"
+        },
+        {
+          "id": 97,
+          "name": "Action RPG"
+        },
+        {
+          "id": 40852,
+          "name": "Steam Workshop"
+        },
+        {
+          "id": 468,
+          "name": "role-playing"
+        },
+        {
+          "id": 62,
+          "name": "Moddable"
+        },
+        {
+          "id": 121,
+          "name": "Character Customization"
+        },
+        {
+          "id": 40,
+          "name": "Dark Fantasy"
+        },
+        {
+          "id": 66,
+          "name": "Medieval"
+        },
+        {
+          "id": 82,
+          "name": "Magic"
+        },
+        {
+          "id": 205,
+          "name": "Lore-Rich"
+        },
+        {
+          "id": 215,
+          "name": "Dragons"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 118307,
+          "image": "https://media.rawg.io/media/screenshots/3bd/3bd2710bd1ffb6664fdea7b83afd067e.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 118308,
+          "image": "https://media.rawg.io/media/screenshots/d4e/d4e9b13f54748584ccbd6f998094dade.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 118309,
+          "image": "https://media.rawg.io/media/screenshots/599/59946a630e9c7871003763d63184404a.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 118310,
+          "image": "https://media.rawg.io/media/screenshots/c5d/c5dad426038d7d12f933eedbeab48ff3.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 118311,
+          "image": "https://media.rawg.io/media/screenshots/b32/b326fa01c82db82edd41ed299886ee44.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 118312,
+          "image": "https://media.rawg.io/media/screenshots/091/091e95b49d5a22de036698fc731395a2.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Red Dead Redemption 2",
+      "about": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. \r\n\r\nAfter a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.\r\n\r\nFrom the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America at the dawn of the modern age.",
+      "backgroundImage": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS: Windows 7 - Service Pack 1 (6.1.7601)\nProcessor: Intel® Core™ i5-2500K / AMD FX-6300\nMemory: 8 GB RAM\nGraphics: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB\nNetwork: Broadband Internet connection\nStorage: 150 GB available space\nSound Card: Direct X Compatible",
+            "recommended": "Recommended:\nRequires a 64-bit processor and operating system\nOS: Windows 10 - April 2018 Update (v1803)\nProcessor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X\nMemory: 12 GB RAM\nGraphics: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB\nNetwork: Broadband Internet connection\nStorage: 150 GB available space\nSound Card: Direct X Compatible"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.59,
+      "releaseDate": "2018-10-26",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 40845,
+          "name": "Partial Controller Support"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
+        },
+        {
+          "id": 26,
+          "name": "Gore"
+        },
+        {
+          "id": 6,
+          "name": "Exploration"
+        },
+        {
+          "id": 37,
+          "name": "Sandbox"
+        },
+        {
+          "id": 34,
+          "name": "Violent"
+        },
+        {
+          "id": 150,
+          "name": "Third-Person Shooter"
+        },
+        {
+          "id": 157,
+          "name": "PvP"
+        },
+        {
+          "id": 40837,
+          "name": "In-App Purchases"
+        },
+        {
+          "id": 192,
+          "name": "Mature"
+        },
+        {
+          "id": 89,
+          "name": "Historical"
+        },
+        {
+          "id": 77,
+          "name": "Realistic"
+        },
+        {
+          "id": 110,
+          "name": "Cinematic"
+        },
+        {
+          "id": 144,
+          "name": "Crime"
+        },
+        {
+          "id": 45878,
+          "name": "Online PvP"
+        },
+        {
+          "id": 478,
+          "name": "3rd-Person Perspective"
+        },
+        {
+          "id": 270,
+          "name": "Blood"
+        },
+        {
+          "id": 78,
+          "name": "America"
+        },
+        {
+          "id": 578,
+          "name": "Masterpiece"
+        },
+        {
+          "id": 577,
+          "name": "Beautiful"
+        },
+        {
+          "id": 181,
+          "name": "Hunting"
+        },
+        {
+          "id": 152,
+          "name": "Western"
+        },
+        {
+          "id": 5452,
+          "name": "3rd-person"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 778173,
+          "image": "https://media.rawg.io/media/screenshots/7b8/7b8895a23e8ca0dbd9e1ba24696579d9.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 778174,
+          "image": "https://media.rawg.io/media/screenshots/b8c/b8cee381079d58b981594ede46a3d6ca.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 778175,
+          "image": "https://media.rawg.io/media/screenshots/fd6/fd6e41d4c30c098158568aef32dfed35.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 778176,
+          "image": "https://media.rawg.io/media/screenshots/2ed/2ed3b2791b3bbed6b98bf362694aeb73.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 778177,
+          "image": "https://media.rawg.io/media/screenshots/857/8573b9f4f06a0c112d6e39cdf3544881.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 778178,
+          "image": "https://media.rawg.io/media/screenshots/985/985e3e1f1d1af1ab0797d43a95d472cc.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "802",
+      "title": "Borderlands 2",
+      "about": "Sequel to the 4-player cooperative FPS RPG Borderlands, where the new team of Vault Hunters arrives on the infamous planet Pandora in order to get the riches, hidden inside the Vault, and help to free the planet from the Handsome Jack, President of Hyperion. Clear out the endless waves and groups and marauders with various weapon types and character abilities.\r\nUnlike the first game, Borderlands 2 provided DLC not only expanding the world of Pandora with stand-alone story campaigns but adding 2 more characters. Now the main cast consists of Gunzerker Salvador(dual-wields guns at command), Siren Maya (holds and paralyzes the enemy), Commando Axton (summons turrets) and Zer0 the Assasin (invisible sniper ninja). But with the DLC players can try out summoning giant flying robots with Gaige the Mechromancer and Krieg the Psycho. \r\nMost of the game charm and popularity of Borderlands 2 comes from the supporting cast and the personalities of the NPC, making this fast-paced shooter with optional cover stand out.",
+      "backgroundImage": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 2,
+          "name": "Shooter"
+        },
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS: Windows XP SP3\nProcessor: 2.4 GHz Dual Core Processor\nMemory: 2 GB(XP)/ 2 GB(Vista)\nHard Disk Space: 13 GB free\nVideo Memory: 256 MB\nVideo Card: NVIDIA GeForce 8500 /ATI Radeon HD 2600\nSound: DirectX 9.0c Compatible\nOther Requirements:Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client, DirectX 9, Microsoft .NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010, and AMD CPU Drivers (XP Only/AMD Only)",
+            "recommended": "Recommended:\nOS: Windows XP SP3/Vista/Win 7\nProcessor: 2.3 GHz Quad Core processor\nMemory: 2 GB\nHard Disk Space: 20 GB free\nVideo Memory: 512MB\nVideo Card: NVIDIA GeForce GTX 560 / ATI Radeon HD 5850\nSound: DirectX 9.0c Compatible\nOther Requirements:Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client, DirectX 9, Microsoft .NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010, and AMD CPU Drivers (XP Only/AMD Only)"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.02,
+      "releaseDate": "2012-09-18",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 7808,
+          "name": "steam-trading-cards"
+        },
+        {
+          "id": 24,
+          "name": "RPG"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 411,
+          "name": "cooperative"
+        },
+        {
+          "id": 32,
+          "name": "Sci-fi"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 123,
+          "name": "Comedy"
+        },
+        {
+          "id": 97,
+          "name": "Action RPG"
+        },
+        {
+          "id": 167,
+          "name": "Futuristic"
+        },
+        {
+          "id": 120,
+          "name": "Memes"
+        },
+        {
+          "id": 148,
+          "name": "Dark Humor"
+        },
+        {
+          "id": 166,
+          "name": "Stylized"
+        },
+        {
+          "id": 98,
+          "name": "Loot"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 7041,
+          "image": "https://media.rawg.io/media/screenshots/adb/adbbb37113618ee107459cd5c344f2a8.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": 7062,
+          "image": "https://media.rawg.io/media/screenshots/616/61643dd96e936d29eb68cf53b2334e53.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": 7070,
+          "image": "https://media.rawg.io/media/screenshots/864/8644946ba14a03ab69f0766c42a03f80.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": 7072,
+          "image": "https://media.rawg.io/media/screenshots/f87/f87ad2b8f02b56e36c57b25cf8eac042.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": 7081,
+          "image": "https://media.rawg.io/media/screenshots/194/194e0962afa272604300001718a07793.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": 7088,
+          "image": "https://media.rawg.io/media/screenshots/297/29716964351ecd82545f1de3a50dfc4e.jpg",
+          "width": 1440,
+          "height": 810
+        }
+      ]
+    },
+    {
+      "id": "992335",
+      "title": "Turbo Live",
+      "about": "Turbo Live is a party game where you have to survive in a world where drivers follow no rules. The game's premise is simple: you must guide a group of slightly dumb and clumsy pedestrians through traffic jams without getting them run over.\nTurbo Live can be played solo like an arcade game, or live with your community as a party game. It's your choice.\n🚶‍♂️ Save or crush the pedestrians\n🚗 Send cars on the road or from the skies to crush the pedestrians\n🔔 Interact with your community or your favorite streamers\n💥 Combine commands and imagine the most twisted strategies to create chaos!\nAre you a streamer looking to play with your community? Turbo Live is the ultimate party game to spice up your Twitch sessions. Save the pedestrians or run them over via chat, in co-op or versus mode. Grow your audience, have fun, and create bonds during chaotic and unforgettable sessions! GO, GO, GO, TURBOOOOOOO LIVE!!!\n🎮 Tons of Game Modes\nIn Turbo Live, the goal is to either crush or save the pedestrians. So far, nothing too complicated. But the game modes add a twist, a challenge, and can even completely turn the experience upside down. Imagine playing street soccer in the middle of a traffic jam. Scoring goals while avoiding getting hit won't be easy. Of course, you'll have access to several different game modes (survival, zero crash, soccer, etc.), and more are coming soon (werewolf, zombie, etc.).\n🎲 Embrace the Chaos\nCan you imagine giving full control to your community? Via the chat, viewers can use tons of commands to play, react, help, sabotage, troll, and support you if they're nice. And as if that wasn't enough, we've also planned random events combined with unpredictable physics to surprise you and create completely absurd situations. But don't worry! You have access to settings to customize your experience and ensure everything runs the way you want it to.\n✨ Simple and Accessible\nHave you ever tried playing with your community but gave up because you had to explain the rules a million times? Relax! We've got you covered. Turbo Live is designed so that anyone (even your great-aunt) can join the game midway without needing explanations. The game's rules and commands are always visible on the screen to make everything super accessible. And to top it off, we've programmed a Twitch bot that gives tips to viewers without cluttering the chat.\nThe main goal is to have fun. Or to make sure your stream goes well and stays dynamic. We definitely want to avoid situations where you're lost in incomprehensible menus and billions of settings. No problem, just start the game, and you can easily connect to your Twitch account from within the game. And don't worry, you don't need to be a pro gamer or a streamer with 1,000,000 followers. You just need a mouse, a decent computer (preferably not from the '80s), and you can even play solo if you want!\n💬 A Message from the Developers\nWe are a small indie team of two passionate people, determined to offer you a fun and chaotic gaming experience, perfect for solo play or sharing live. We don't claim to offer you a 100-hour blockbuster with endless side quests. Instead, we offer you Turbo Live, a game with a unique experience that suits you.\nTurbo Live is free (and always will be) and offers extensive customization thanks to DLCs. You have the freedom to install the DLCs that interest you to enrich your experience. Additionally, we are committed to continuously adding free and paid content, taking your feedback into account to improve the game over time.\n💖Did you enjoy Turbo Live or want to follow the project?\n💌 You can provide feedback on our Discord to improve the game\n👉 You can join our social networks or share it with your friends",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/556/5560cff7fae5bde7b18239cdecb59aa5.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 40,
+          "name": "Casual"
+        },
+        {
+          "id": 59,
+          "name": "Massively Multiplayer"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS: Windows 10\nProcessor: 2.3 GHz Dual Core (Intel / AMD)\nMemory: 4 GB RAM\nGraphics: Integrated graphics\nDirectX: Version 11\nStorage: 1 GB available space\nSound Card: Audio headphone or audio speaker",
+            "recommended": "Recommended:\nRequires a 64-bit processor and operating system\nOS: Windows 10\nProcessor: 4.0 GHz Dual Core (Intel / AMD)\nGraphics: At least NVIDIA GTX 650 / AMD Radeon 5000-series\nDirectX: Version 11\nStorage: 2 GB available space\nSound Card: Audio headphone or audio speaker"
+          }
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 157,
+          "name": "PvP"
+        },
+        {
+          "id": 141,
+          "name": "Point & Click"
+        },
+        {
+          "id": 121,
+          "name": "Character Customization"
+        },
+        {
+          "id": 165,
+          "name": "Colorful"
+        },
+        {
+          "id": 11,
+          "name": "Team-Based"
+        },
+        {
+          "id": 99,
+          "name": "Isometric"
+        },
+        {
+          "id": 45878,
+          "name": "Online PvP"
+        },
+        {
+          "id": 138,
+          "name": "Relaxing"
+        },
+        {
+          "id": 46,
+          "name": "Surreal"
+        },
+        {
+          "id": 171,
+          "name": "PvE"
+        },
+        {
+          "id": 269,
+          "name": "Quick-Time Events"
+        },
+        {
+          "id": 35162,
+          "name": "Battle Royale"
+        },
+        {
+          "id": 246,
+          "name": "Clicker"
+        },
+        {
+          "id": 569,
+          "name": "Minigames"
+        },
+        {
+          "id": 5468,
+          "name": "qte"
+        },
+        {
+          "id": 55318,
+          "name": "Party Game"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4119943,
+          "image": "https://media.rawg.io/media/screenshots/b9a/b9a47403639634db5ce03b635f9f104d.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4119944,
+          "image": "https://media.rawg.io/media/screenshots/d4d/d4d6b4e6cc73f9136fa8f51e8de19098.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4119945,
+          "image": "https://media.rawg.io/media/screenshots/a63/a630199a3502c0309e8830e5b1b0a862.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4119946,
+          "image": "https://media.rawg.io/media/screenshots/1ef/1eff710872faa8bc57624acb05f3c4f0.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4119947,
+          "image": "https://media.rawg.io/media/screenshots/d1d/d1d4c5cec50e4f4600d0b8c8b2ffb511.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4119948,
+          "image": "https://media.rawg.io/media/screenshots/e2e/e2ecaf6db9596ec89fab2f46acf0b347.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 992472,
+      "title": "Beyond Astra",
+      "about": "“Stellaris has a new challenger in ‘90s inspired space 4X game Beyond Astra.”\n— PCGamesN\n\n“Beyond Astra makes space strategy more exciting than ever.”\n— Gamestar (translated)\n\n\nBeyond Astra is a strategy game that allows you to experience the future of space civilization. Grow your starting city into a multi-system empire, manage your economy, research, military, politics, and culture, and expand your civilization through conquest.\nDEEP AND DIVERSE EXPLORATION\n\nEach game begins on an unknown planet, full of potential for your civilization. As you advance technologically, your civilization becomes ready to explore the galaxy, discovering new planets, celestial bodies, and other life forms. The galaxy is full of adventures, surprises, and mysteries waiting to be discovered, pushing the boundaries of your civilization’s knowledge.\n\nVAST MANAGEMENT FREEDOM\n\nSeamlessly navigate from planetary surfaces to the entire game map and its strategic insights with a simple scroll of your mouse wheel—no loading required. Revel in the authority to make sweeping decisions, from subsidizing the agri-food sector to propagating beliefs across the galaxy. Engage with your citizens by managing political interactions and enhancing their quality of life, making impactful decisions that affect their satisfaction. Take bold actions, from claiming a moon inhabited by Hyppotaks to constructing your Dyson Sphere, orchestrating resource transport across the galaxy, and much more.\n\nEPIC GALACTIC WARFARE\n\nImplement effective tactics on planets and in the vastness of space. Each terrestrial army has its own composition. Each ship boasts its own size, characteristics, and capabilities, with fully customizable components (engine, defense, weaponry). Interact with challenging AI civilizations, endowed with unique personalities and natural reactions, whether as adversaries or reliable allies. Strategic coordination and adaptation are vital for your success.\n\nLATEST TECHNOLOGIES AND INNOVATIONS...\n\n...propel the 4X Genre to New Horizons: An enormous, continuously evolving map features hundreds of visitable worlds and ships in motion, with no loading. Each planet has instant pathfinding calculations on its surface, and billions of citizens are calculated using parallel processing, freeze-free. Each ship is equipped with customizable turrets that rotate and can be targeted, with advanced collision management that even allows interception of mid-flight missiles.\n\nJOIN US IN THIS SPACE ODYSSEY\n\nBeyond Astra is a passion project coded by a solo developer. We warmly encourage you to share your thoughts, suggestions, and critiques. We deeply value your feedback and are committed to listening.\n\nKEY FEATURES\nSimultaneous Planet Surface and Space Gameplay: Seamlessly navigate from the galaxy view to the surface of any planet without any loading screens.\nCustomization: Tailor your species’ adaptability to climate, air composition, gravity, specific needs, and traits, while defining your civilization’s consciousness, political regime, government, names, leader, and visuals.\nCity Building and Space Station Construction: Choose buildings to construct, produce what you need, and ensure the satisfaction of your population.\nEconomy: Establish a thriving economy by managing logistics, budgets, taxes, privatizations, companies, and shares, while making strategic decisions on city composition, resource exploitation, and environmental considerations; build robust trade networks and acquire shares of enterprises from other civilizations.\nMilitary: Raise your terrestrial armies and space fleets to conquer planets, besiege cities, defend your territories on the ground and in space, adapt your strategies, and engage in epic battles to assert supremacy over other civilizations.\nDiplomacy: Meet other civilizations, use Influence to forge reliable alliances or face surprising enemies, engage in espionage, and form the principal alliance in the galaxy.\nPolitics: Use your Influence to vote or block laws, support a party, and maintain the population’s trust—or face revolution.\nScience: Build laboratories and research new technologies in an extensive skill tree to enhance your civilization buildings, armies, and ships, explore and discover the mysteries of the universe.\nCulture: Promote your ideology (Idealist, Pragmatism, Subversive) and get bonuses for your civilization, achieve the construction of remarkable wonders and attract tourism and population from the entire galaxy.\nReligion: Create and tailor your state cult to the beliefs and practices of your citizens, spread it across the galaxy through temples and emissaries, bolster your faith gauge, and unlock powerful passive and active powers, enabling miraculous events.\n7 Victory Conditions with Soft Power (Fight Without War): Economic, Military, Diplomatic, Scientific, Cultural, Religious, and Score-based.\nIconic Pioneers: The game’s replayability and possibilities are expanded through the character you choose at the start of each game, each with unique bonuses and backstories that reveal different aspects of the game’s universe and its mysteries.\n3 Unit Types: Armies on land, spaceships, and orbital units.\n3 Skill Trees: Science (technologies), Culture (ideology), and Religion (powers).\n50 Resources: Used for building construction, unit creation, population satisfaction, and scientific research. Some resources are global, while others are local and must be transported between stocks.\nEcology: Manage pollution and waste, gather resources wisely, and maintain high planetary life to ensure good habitability.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/d7f/d7fb1f24c6fc5ec59003b56c6d008d16.jpg",
+      "genres": [],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 6,
+          "name": "Exploration"
+        },
+        {
+          "id": 25,
+          "name": "Space"
+        },
+        {
+          "id": 39,
+          "name": "Building"
+        },
+        {
+          "id": 67,
+          "name": "Management"
+        },
+        {
+          "id": 195,
+          "name": "Economy"
+        },
+        {
+          "id": 2030,
+          "name": "city"
+        },
+        {
+          "id": 581,
+          "name": "Epic"
+        },
+        {
+          "id": 219,
+          "name": "Politics"
+        },
+        {
+          "id": 1505,
+          "name": "ship"
+        },
+        {
+          "id": 1105,
+          "name": "planet"
+        },
+        {
+          "id": 2405,
+          "name": "planets"
+        },
+        {
+          "id": 6903,
+          "name": "galaxy"
+        },
+        {
+          "id": 1778,
+          "name": "food"
+        },
+        {
+          "id": 3621,
+          "name": "map"
+        },
+        {
+          "id": 1887,
+          "name": "moon"
+        },
+        {
+          "id": 2546,
+          "name": "ships"
+        },
+        {
+          "id": 2821,
+          "name": "tactics"
+        },
+        {
+          "id": 2857,
+          "name": "construction"
+        },
+        {
+          "id": 2482,
+          "name": "religion"
+        },
+        {
+          "id": 4467,
+          "name": "culture"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4121150,
+          "image": "https://media.rawg.io/media/screenshots/227/2272cf5f0e48b2709e92b47612b63934.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121151,
+          "image": "https://media.rawg.io/media/screenshots/b88/b88ead9d96b4b96394be8d47b3c16639.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121152,
+          "image": "https://media.rawg.io/media/screenshots/059/059b4a8228bada525d05e709565ea8e2.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121153,
+          "image": "https://media.rawg.io/media/screenshots/13a/13a3aee23c4e1f36e9d2441c46ba73cc.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121154,
+          "image": "https://media.rawg.io/media/screenshots/34b/34b85918d6d699cad4aed942e48e86fb.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4121155,
+          "image": "https://media.rawg.io/media/screenshots/026/026b5910c60d2fae54326c3869ff7846.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 991924,
+      "title": "FRAY Game",
+      "about": "FRAY spawned from the story of Tullio and Ziya, two deeply bonded brothers who share a passion for movement, hip hop culture, and a competitive zeal for video games.  Their brotherly connection frays as the elder brother Ziya is lured into a wondrous video game world by Lucious, a beguiling AI character he conjures up for a gaming contest.\nThe contest calls for building a great puzzle game, but as Ziya’s foray into AI blurs the line between real and virtual, the brothers are drawn into a real-life quandary in which restoring the frayed connections of their relationship means confronting the reality that people are the greatest puzzles of all.\nThe FRAY team invites fans into both worlds through a hip hop dance theatre production, and through  a video game for PC's launching on Steam June 15th.\nFRAY Game is an imaginative, rhythm based puzzle game in which the player takes control of Tullio to light the way through a maze-like world of isometric dance puzzles and rhythm based challenges.\nAlong the way, cunning enemies attempt to break the bond between the brothers and seduce Ziya into the underworld forever. By moving to the rhythm and mastering energy-blasting dance routines, Tullio must keep improving his dancing skills to acquire enough energy to carry his ailing brother to the final level’s end - an allegorical home.  FRAY Game was built by Herobeat Studios in Barcelona. Unreal Engine.\nThe FRAY Show is a unique and game-changing new production that intersects hip hop dance theatre with gaming and a conceptual AI world, and is coming to the state of the art stage of Lilian Baylis Studio, Sadlers Wells for an exclusive two night run on Friday 21st and Saturday 22nd June, with tickets on sale now here.\n\nThe FRAY Show brings together an innovative team of creators, including writer/Executive Producer/Director Kate Duhamel of Candy Bomber Productions and the Olivier award nominated MC, dancer, director and founder of Breakin’ Convention and maverick hip hop dance pioneer  Jonzi D, who is FRAY’s Artistic Director, with music supervision by respected UK hip hop artist Micall Parknsn, live music performed by the award-winning saxophonist, composer and broadcaster Soweto Kinch, with choreography by dance captain Ola Papiór.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/c31/c315cfadd3d51c8e9d266311054189a9.jpg",
+      "genres": [
+        {
+          "id": 40,
+          "name": "Casual"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nVR Support: No"
+          }
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 15,
+          "name": "Stealth"
+        },
+        {
+          "id": 88,
+          "name": "Cute"
+        },
+        {
+          "id": 165,
+          "name": "Colorful"
+        },
+        {
+          "id": 571,
+          "name": "3D"
+        },
+        {
+          "id": 82,
+          "name": "Magic"
+        },
+        {
+          "id": 61,
+          "name": "Top-Down"
+        },
+        {
+          "id": 138,
+          "name": "Relaxing"
+        },
+        {
+          "id": 305,
+          "name": "Linear"
+        },
+        {
+          "id": 166,
+          "name": "Stylized"
+        },
+        {
+          "id": 164,
+          "name": "Cartoony"
+        },
+        {
+          "id": 572,
+          "name": "Emotional"
+        },
+        {
+          "id": 279,
+          "name": "Supernatural"
+        },
+        {
+          "id": 207,
+          "name": "Rhythm"
+        },
+        {
+          "id": 91686,
+          "name": "Family Sharing"
+        },
+        {
+          "id": 49955,
+          "name": "Puzzle Platformer"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4116778,
+          "image": "https://media.rawg.io/media/screenshots/8b2/8b2e455f31e8533970182906ca6d6fad.jpg",
+          "width": 537,
+          "height": 346
+        },
+        {
+          "id": 4116779,
+          "image": "https://media.rawg.io/media/screenshots/653/65342269538ba7f43f0ddcc4d2d98504.jpg",
+          "width": 516,
+          "height": 352
+        },
+        {
+          "id": 4116780,
+          "image": "https://media.rawg.io/media/screenshots/641/6413b35b0d0c1f90b27a4aaba227a195.jpg",
+          "width": 532,
+          "height": 293
+        },
+        {
+          "id": 4116781,
+          "image": "https://media.rawg.io/media/screenshots/565/565ca38ca0b61b099217840e633c3eab.jpg",
+          "width": 567,
+          "height": 269
+        },
+        {
+          "id": 4116782,
+          "image": "https://media.rawg.io/media/screenshots/3ca/3ca664d0996122c185b2fede9b788391.jpg",
+          "width": 566,
+          "height": 507
+        },
+        {
+          "id": 4116783,
+          "image": "https://media.rawg.io/media/screenshots/c31/c315cfadd3d51c8e9d266311054189a9.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": 3328,
+      "title": "The Witcher 3: Wild Hunt",
+      "about": "The third game in a series, it holds nothing back from the player. Open world adventures of the renowned monster slayer Geralt of Rivia are now even on a larger scale. Following the source material more accurately, this time Geralt is trying to find the child of the prophecy, Ciri while making a quick coin from various contracts on the side. Great attention to the world building above all creates an immersive story, where your decisions will shape the world around you.\n\nCD Project Red are infamous for the amount of work they put into their games, and it shows, because aside from classic third-person action RPG base game they provided 2 massive DLCs with unique questlines and 16 smaller DLCs, containing extra quests and items.\n\nPlayers praise the game for its atmosphere and a wide open world that finds the balance between fantasy elements and realistic and believable mechanics, and the game deserved numerous awards for every aspect of the game, from music to direction.",
+      "backgroundImage": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 186,
+            "name": "Xbox Series S/X"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 187,
+            "name": "PlayStation 5"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.65,
+      "releaseDate": "2015-05-18",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack"
+        },
+        {
+          "id": 24,
+          "name": "RPG"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 64,
+          "name": "Fantasy"
+        },
+        {
+          "id": 37,
+          "name": "Sandbox"
+        },
+        {
+          "id": 97,
+          "name": "Action RPG"
+        },
+        {
+          "id": 41,
+          "name": "Dark"
+        },
+        {
+          "id": 44,
+          "name": "Nudity"
+        },
+        {
+          "id": 336,
+          "name": "controller support"
+        },
+        {
+          "id": 145,
+          "name": "Choices Matter"
+        },
+        {
+          "id": 192,
+          "name": "Mature"
+        },
+        {
+          "id": 40,
+          "name": "Dark Fantasy"
+        },
+        {
+          "id": 66,
+          "name": "Medieval"
+        },
+        {
+          "id": 82,
+          "name": "Magic"
+        },
+        {
+          "id": 218,
+          "name": "Multiple Endings"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 30336,
+          "image": "https://media.rawg.io/media/screenshots/1ac/1ac19f31974314855ad7be266adeb500.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 30337,
+          "image": "https://media.rawg.io/media/screenshots/6a0/6a08afca95261a2fe221ea9e01d28762.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 30338,
+          "image": "https://media.rawg.io/media/screenshots/cdd/cdd31b6b4a687425a87b5ce231ac89d7.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 30339,
+          "image": "https://media.rawg.io/media/screenshots/862/862397b153221a625922d3bb66337834.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 30340,
+          "image": "https://media.rawg.io/media/screenshots/166/166787c442a45f52f4f230c33fd7d605.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 30342,
+          "image": "https://media.rawg.io/media/screenshots/f63/f6373ee614046d81503d63f167181803.jpg",
+          "width": 1280,
+          "height": 720
         }
       ]
     }
