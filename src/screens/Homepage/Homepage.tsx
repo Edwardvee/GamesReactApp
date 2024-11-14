@@ -31,7 +31,7 @@ export function Homepage() {
   useEffect(() => {
     let isDragging = false;
     let startX: number;
-    let startScrollLeft: number;
+
     let currentTranslateX = 0;
     let prevTranslateX = 0;
 

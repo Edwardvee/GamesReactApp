@@ -1,4 +1,4 @@
-import zustand, { create } from "zustand";
+import { create } from "zustand";
 import {
   IGameCard,
   IGameDetail,
