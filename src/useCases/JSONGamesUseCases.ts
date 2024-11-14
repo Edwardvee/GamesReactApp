@@ -84,7 +84,10 @@ async function GetGames(
     console.log(e);
   }
 }
-
+async function setFavorites() {
+  try {
+  } catch (e) {}
+}
 async function GetFavorites() {
   try {
     const response = await JSONAPIService.getFavorites();
@@ -94,12 +97,17 @@ async function GetFavorites() {
         id: r.id,
         title: r.title,
         genres: r.genres,
-        image: r.image,
+        image: r.backgroundImage,
         platforms: r.platforms,
         releaseDate: r.releaseDate,
-        source: "json",
+        source: r.source,
       });
     });
+    GlobalStateService.setFavoritesID(
+      response.map((r: any) => {
+        return r.id;
+      })
+    );
     GlobalStateService.setFavorites(gamesData);
   } catch (e) {
     console.log(e);
@@ -195,9 +203,24 @@ async function createGame(game: IFormData) {
     console.log(e);
   }
 }
+async function getFavsID() {
+  try {
+    const data = await JSONAPIService.getFavorites();
+
+    GlobalStateService.setFavoritesID(
+      data.map((d: any) => {
+        return d.id;
+      })
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
 export const JSONGamesUseCases = {
   GetGames,
   GetFavorites,
   GameInfo,
   createGame,
+  setFavorites,
+  getFavsID,
 };
