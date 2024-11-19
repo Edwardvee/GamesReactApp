@@ -1,0 +1,8 @@
+.columnSearch {
+  flex: 0;
+  z-index: 1;
+  max-height: 235px;
+  &:hover {
+    z-index: 10000 !important;
+  }
+}

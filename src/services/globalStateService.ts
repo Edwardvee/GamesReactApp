@@ -21,6 +21,7 @@ interface IGlobalDataState {
   pageSize: number;
   items: number;
   userOptions: userOptions;
+  searchResults: IGameCard[];
 }
 const initialStoreData: IGlobalDataState = {
   games: [],
@@ -34,6 +35,7 @@ const initialStoreData: IGlobalDataState = {
   page: 1,
   pageSize: 10,
   items: 0,
+  searchResults: [],
   userOptions: { source: "api", genres: [], platforms: [], orderBy: "name" },
 };
 
@@ -97,6 +99,9 @@ function getFavoritesIDS() {
   return globalDataState((state) => {
     return state.favoritesIds;
   });
+}
+function getFavoritesIDSOutsideComponent() {
+  return globalDataState.getState().favoritesIds;
 }
 function setFavoritesID(favoritesIds: string[]) {
   globalDataState.setState((prev) => {
@@ -177,6 +182,16 @@ function getFilteredGames() {
     return state.games;
   });
 }
+function getSearchResults() {
+  return globalDataState((state) => {
+    return state.searchResults;
+  });
+}
+function setSearchResults(searchResults: IGameCard[]) {
+  globalDataState.setState((prev) => {
+    return { ...prev, searchResults };
+  });
+}
 export const GlobalStateService = {
   getGames,
   setGames,
@@ -207,4 +222,7 @@ export const GlobalStateService = {
   getUserFilterOptions,
   getFavoritesIDS,
   setFavoritesID,
+  getSearchResults,
+  getFavoritesIDSOutsideComponent,
+  setSearchResults,
 };

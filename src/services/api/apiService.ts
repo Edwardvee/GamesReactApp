@@ -71,11 +71,21 @@ async function getGameInfo(game: string) {
     return e;
   }
 }
-
+async function searchGames(title: string) {
+  try {
+    const { data } = await axiosInstance.get("/games", {
+      params: { search: title },
+    });
+    return data;
+  } catch (e) {
+    console.warn(e);
+  }
+}
 export const APIService = {
   getGames,
   getGameInfo,
   getGenres,
   getPlatforms,
   getTags,
+  searchGames,
 };

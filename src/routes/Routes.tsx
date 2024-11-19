@@ -5,6 +5,7 @@ import { GameDetails } from "../screens/GameDetails/GameDetails";
 import { EditGame } from "../screens/EditGame/EditGame";
 import { CreateGame } from "../screens/CreateGame/CreateGame";
 import { Favorites } from "../screens/Favorites/Favorites";
+import { SearchComponent } from "../screens/Search/search";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
       { path: "details/:id", element: <GameDetails /> },
       { path: "create", element: <CreateGame /> },
       { path: "edit/:id", element: <EditGame /> },
+      { path: "search", element: <SearchComponent></SearchComponent> },
     ],
   },
 ]);
