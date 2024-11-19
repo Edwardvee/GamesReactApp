@@ -1,6 +1,6 @@
 import { CheckCircleFilled, PlusCircleFilled } from "@ant-design/icons";
 import { Card } from "antd";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
 import styles from "./index.module.scss";
@@ -27,6 +27,10 @@ export const CardGameD: React.FC<CardComponent> = ({
   source,
 }) => {
   const [favState, setFavState] = useState(fav);
+
+  useEffect(() => {
+    setFavState(fav);
+  }, [fav]);
 
   return (
     <>

@@ -68,7 +68,7 @@ async function GetGames(
 
     filtered.forEach((r: any) => {
       gamesData.push({
-        id: r.id,
+        id: r.id.toString(),
         title: r.title || "No data available",
         genres: r.genres || ["No data available"],
         image: r.backgroundImage.url,
@@ -94,7 +94,7 @@ async function GetFavorites() {
     const gamesData: IGameCard[] = [];
     response.forEach((r: any) => {
       gamesData.push({
-        id: r.id,
+        id: r.id.toString(),
         title: r.title,
         genres: r.genres,
         image: r.backgroundImage,
@@ -206,12 +206,10 @@ async function createGame(game: IFormData) {
 async function getFavsID() {
   try {
     const data = await JSONAPIService.getFavorites();
-
-    GlobalStateService.setFavoritesID(
-      data.map((d: any) => {
-        return d.id;
-      })
-    );
+    const ids = data.map((d: any) => {
+      return d.id;
+    });
+    GlobalStateService.setFavoritesID(ids);
   } catch (error) {
     console.log(error);
   }

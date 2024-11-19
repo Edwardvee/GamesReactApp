@@ -22,7 +22,7 @@ async function getGames(
     const gamesData: IGameCard[] = [];
     response.results.forEach((r: any) => {
       gamesData.push({
-        id: r.id,
+        id: r.id.toString(),
         title: r.name,
         genres: r.genres,
         image: r.background_image,
@@ -58,7 +58,7 @@ async function getDiscoverGames(page: number, filter: IFilter) {
 
     response.results.forEach((r: any) => {
       gamesData.push({
-        id: r.id,
+        id: r.id.toString(),
         title: r.name,
         genres: r.genres,
         image: r.background_image,
@@ -188,7 +188,7 @@ async function setFavorites(id: string, src: string) {
     } else if (src == "json") {
       const response = await JSONAPIService.getGameInfo(id);
       const game: IGameDetail = {
-        id: response.id,
+        id: response.id.toString(),
         title: response.title,
         about: response.about,
         backgroundImage: response.backgroundImage.url,
@@ -222,6 +222,26 @@ async function setFavorites(id: string, src: string) {
     console.log(e);
   }
 }
+async function searchGames(title: string) {
+  try {
+    const response = await APIService.searchGames(title);
+    const gamesData: IGameCard[] = [];
+    response.results.forEach((r: any) => {
+      gamesData.push({
+        id: r.id.toString(),
+        title: r.name,
+        genres: r.genres,
+        image: r.background_image,
+        platforms: r.platforms,
+        releaseDate: r.released,
+        source: "api",
+      });
+    });
+    GlobalStateService.setSearchResults(gamesData);
+  } catch (e) {
+    console.warn(e);
+  }
+}
 
 export const GamesUseCases = {
   getGames,
@@ -232,4 +252,5 @@ export const GamesUseCases = {
   getTags,
   setFavorites,
   removeFavorites,
+  searchGames,
 };

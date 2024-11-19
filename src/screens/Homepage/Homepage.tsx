@@ -6,35 +6,38 @@ import { GlobalStateService } from "../../services/globalStateService";
 import { GamesUseCases } from "../../useCases/gamesUseCases";
 import { JSONGamesUseCases } from "../../useCases/JSONGamesUseCases";
 import styles from "./homepage.module.scss";
-
 import type { SelectProps } from "antd";
 
 export function Homepage() {
-
   const screens = Grid.useBreakpoint();
   const getColumnSpan = () => {
     if (screens.xl) return 8;
     else if (screens.lg) return 12;
     else if (screens.md) return 12;
     else if (screens.sm) return 24;
-    return 24; // 1 column on smaller screens
+    return 24;
   };
   let carousel = document.getElementById("carousel");
-  const [favIDS, setFavIDS] = useState([""]);
-  const ids = GlobalStateService.getFavoritesIDS();
+  const favorites = GlobalStateService.getFavoritesIDS();
+
+  const [loadingFavs, setLoadingFavs] = useState(true);
+
   useEffect(() => {
-    JSONGamesUseCases.getFavsID().then(()=>{
-      setFavIDS(ids)
-      GamesUseCases.getDiscoverGames(1, {
-        param: "ordering",
-        value: "released",
-      }).finally(() => {
-        carousel = document.getElementById("carousel");
-        setDLoading(false);
-      });
-    })
-   
+    JSONGamesUseCases.getFavsID().then(() => {
+      setLoadingFavs(false);
+    });
   }, []);
+
+  useEffect(() => {
+    GamesUseCases.getDiscoverGames(1, {
+      param: "ordering",
+      value: "released",
+    }).finally(() => {
+      carousel = document.getElementById("carousel");
+
+      setdiscoverLoading(false);
+    });
+  }, [favorites]);
   useEffect(() => {
     let isDragging = false;
     let startX: number;
@@ -82,17 +85,14 @@ export function Homepage() {
     };
   }, [carousel]);
 
-  const cGames = GlobalStateService.getGames();
-  const dGames = GlobalStateService.getDiscoverGames();
-  const cGamesPage = GlobalStateService.getGamesPage();
+  const catalogGames = GlobalStateService.getGames();
+  const discoverGames = GlobalStateService.getDiscoverGames();
+  const catalogGamesPage = GlobalStateService.getGamesPage();
 
   const gamesItems = GlobalStateService.getItems();
- 
-
 
   //const userOptions = GlobalStateService.getUserFilterOptions();
-  const [dLoading, setDLoading] = useState(true);
-
+  const [discoverLoading, setdiscoverLoading] = useState(true);
 
   const [source, sourceState] = useState("api");
   const changeSource = (value: string) => {
@@ -101,15 +101,18 @@ export function Homepage() {
     refreshCatalog();
     if (value === "api") {
       GamesUseCases.getGames(
-        cGamesPage,
+        catalogGamesPage,
         { param: "ordering", value: "Name" },
         genres?.join(","),
         platforms?.join(",")
       ).then(() => {});
     } else {
-      JSONGamesUseCases.GetGames(cGamesPage, genres, platforms, "name").then(
-        () => {}
-      );
+      JSONGamesUseCases.GetGames(
+        catalogGamesPage,
+        genres,
+        platforms,
+        "name"
+      ).then(() => {});
     }
     hasMoreState(true);
   };
@@ -184,25 +187,27 @@ export function Homepage() {
         Discover new Games
       </h1>
       <div className={styles.discoverSection}>
-        {dLoading ? (
+        {discoverLoading && loadingFavs ? (
           <Spin style={{ margin: "20px" }} tip="Loading" size="large"></Spin>
         ) : (
           <>
             <div className={styles.carousel} id="carousel">
-              {dGames.map((game) => (
-                <CardGameD
-                  id={game.id}
-                  source={game.source}
-                  fav={favIDS.includes(game.id) ? true : false}
-                  title={game.title || "No info."}
-                  imgSrc={game.image || "notfound.png"}
-                  releaseDate={game.releaseDate || "No info."}
-                  genre={game.genres.map((g) => g.name) || "No info."}
-                  platforms={
-                    game.platforms.map((p) => p.platform.name) || "No info."
-                  }
-                />
-              ))}
+              {discoverGames.map((game) => {
+                return (
+                  <CardGameD
+                    id={game.id}
+                    source={game.source}
+                    fav={favorites.includes(game.id) ? true : false}
+                    title={game.title || "No info."}
+                    imgSrc={game.image || "notfound.png"}
+                    releaseDate={game.releaseDate || "No info."}
+                    genre={game.genres.map((g) => g.name) || "No info."}
+                    platforms={
+                      game.platforms.map((p) => p.platform.name) || "No info."
+                    }
+                  />
+                );
+              })}
             </div>
           </>
         )}
@@ -259,11 +264,11 @@ export function Homepage() {
 
         <InfiniteScroll
           style={{ overflow: "hidden" }}
-          dataLength={cGames.length}
+          dataLength={catalogGames.length}
           next={() => {
             if (source == "api") {
               GamesUseCases.getGames(
-                cGamesPage,
+                catalogGamesPage,
                 {
                   param: "ordering",
                   value: filter ? filter : "Name",
@@ -271,19 +276,19 @@ export function Homepage() {
                 genres?.join(","),
                 platforms?.join(",")
               ).then(() => {
-                GlobalStateService.setGamesPage(cGamesPage + 1);
+                GlobalStateService.setGamesPage(catalogGamesPage + 1);
               });
             } else {
               JSONGamesUseCases.GetGames(
-                cGamesPage,
+                catalogGamesPage,
                 genres,
                 platforms,
                 "name"
               ).then(() => {
-                if (gamesItems <= cGames.length) {
+                if (gamesItems <= catalogGames.length) {
                   hasMoreState(false);
                 } else {
-                  GlobalStateService.setGamesPage(cGamesPage + 1);
+                  GlobalStateService.setGamesPage(catalogGamesPage + 1);
                 }
               });
             }
@@ -300,7 +305,7 @@ export function Homepage() {
           }
         >
           <Row gutter={[16, 4]} justify="center" style={{ marginTop: "20px" }}>
-            {cGames.map((game) => (
+            {catalogGames.map((game) => (
               <Col
                 key={game.id}
                 span={getColumnSpan()}
@@ -311,7 +316,7 @@ export function Homepage() {
                   id={game.id}
                   source={game.source}
                   title={game.title}
-                  fav={favIDS.includes(game.id) ? true : false}
+                  fav={favorites.includes(game.id) ? true : false}
                   imgSrc={game.image || "notfound.png"}
                   releaseDate={game.releaseDate || "No info."}
                   genre={game.genres.map((g) => g.name)}
