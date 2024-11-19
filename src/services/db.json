@@ -510,191 +510,32 @@
       ]
     },
     {
-      "id": "992472",
-      "title": "Beyond Astra",
-      "about": "“Stellaris has a new challenger in ‘90s inspired space 4X game Beyond Astra.”\n— PCGamesN\n\n“Beyond Astra makes space strategy more exciting than ever.”\n— Gamestar (translated)\n\n\nBeyond Astra is a strategy game that allows you to experience the future of space civilization. Grow your starting city into a multi-system empire, manage your economy, research, military, politics, and culture, and expand your civilization through conquest.\nDEEP AND DIVERSE EXPLORATION\n\nEach game begins on an unknown planet, full of potential for your civilization. As you advance technologically, your civilization becomes ready to explore the galaxy, discovering new planets, celestial bodies, and other life forms. The galaxy is full of adventures, surprises, and mysteries waiting to be discovered, pushing the boundaries of your civilization’s knowledge.\n\nVAST MANAGEMENT FREEDOM\n\nSeamlessly navigate from planetary surfaces to the entire game map and its strategic insights with a simple scroll of your mouse wheel—no loading required. Revel in the authority to make sweeping decisions, from subsidizing the agri-food sector to propagating beliefs across the galaxy. Engage with your citizens by managing political interactions and enhancing their quality of life, making impactful decisions that affect their satisfaction. Take bold actions, from claiming a moon inhabited by Hyppotaks to constructing your Dyson Sphere, orchestrating resource transport across the galaxy, and much more.\n\nEPIC GALACTIC WARFARE\n\nImplement effective tactics on planets and in the vastness of space. Each terrestrial army has its own composition. Each ship boasts its own size, characteristics, and capabilities, with fully customizable components (engine, defense, weaponry). Interact with challenging AI civilizations, endowed with unique personalities and natural reactions, whether as adversaries or reliable allies. Strategic coordination and adaptation are vital for your success.\n\nLATEST TECHNOLOGIES AND INNOVATIONS...\n\n...propel the 4X Genre to New Horizons: An enormous, continuously evolving map features hundreds of visitable worlds and ships in motion, with no loading. Each planet has instant pathfinding calculations on its surface, and billions of citizens are calculated using parallel processing, freeze-free. Each ship is equipped with customizable turrets that rotate and can be targeted, with advanced collision management that even allows interception of mid-flight missiles.\n\nJOIN US IN THIS SPACE ODYSSEY\n\nBeyond Astra is a passion project coded by a solo developer. We warmly encourage you to share your thoughts, suggestions, and critiques. We deeply value your feedback and are committed to listening.\n\nKEY FEATURES\nSimultaneous Planet Surface and Space Gameplay: Seamlessly navigate from the galaxy view to the surface of any planet without any loading screens.\nCustomization: Tailor your species’ adaptability to climate, air composition, gravity, specific needs, and traits, while defining your civilization’s consciousness, political regime, government, names, leader, and visuals.\nCity Building and Space Station Construction: Choose buildings to construct, produce what you need, and ensure the satisfaction of your population.\nEconomy: Establish a thriving economy by managing logistics, budgets, taxes, privatizations, companies, and shares, while making strategic decisions on city composition, resource exploitation, and environmental considerations; build robust trade networks and acquire shares of enterprises from other civilizations.\nMilitary: Raise your terrestrial armies and space fleets to conquer planets, besiege cities, defend your territories on the ground and in space, adapt your strategies, and engage in epic battles to assert supremacy over other civilizations.\nDiplomacy: Meet other civilizations, use Influence to forge reliable alliances or face surprising enemies, engage in espionage, and form the principal alliance in the galaxy.\nPolitics: Use your Influence to vote or block laws, support a party, and maintain the population’s trust—or face revolution.\nScience: Build laboratories and research new technologies in an extensive skill tree to enhance your civilization buildings, armies, and ships, explore and discover the mysteries of the universe.\nCulture: Promote your ideology (Idealist, Pragmatism, Subversive) and get bonuses for your civilization, achieve the construction of remarkable wonders and attract tourism and population from the entire galaxy.\nReligion: Create and tailor your state cult to the beliefs and practices of your citizens, spread it across the galaxy through temples and emissaries, bolster your faith gauge, and unlock powerful passive and active powers, enabling miraculous events.\n7 Victory Conditions with Soft Power (Fight Without War): Economic, Military, Diplomatic, Scientific, Cultural, Religious, and Score-based.\nIconic Pioneers: The game’s replayability and possibilities are expanded through the character you choose at the start of each game, each with unique bonuses and backstories that reveal different aspects of the game’s universe and its mysteries.\n3 Unit Types: Armies on land, spaceships, and orbital units.\n3 Skill Trees: Science (technologies), Culture (ideology), and Religion (powers).\n50 Resources: Used for building construction, unit creation, population satisfaction, and scientific research. Some resources are global, while others are local and must be transported between stocks.\nEcology: Manage pollution and waste, gather resources wisely, and maintain high planetary life to ensure good habitability.",
-      "backgroundImage": "https://media.rawg.io/media/screenshots/d7f/d7fb1f24c6fc5ec59003b56c6d008d16.jpg",
-      "genres": [],
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC"
-          },
-          "requirements": {}
-        }
-      ],
-      "rating": 0,
-      "releaseDate": null,
-      "tags": [
-        {
-          "id": 6,
-          "name": "Exploration"
-        },
-        {
-          "id": 25,
-          "name": "Space"
-        },
-        {
-          "id": 39,
-          "name": "Building"
-        },
-        {
-          "id": 67,
-          "name": "Management"
-        },
-        {
-          "id": 195,
-          "name": "Economy"
-        },
-        {
-          "id": 2030,
-          "name": "city"
-        },
-        {
-          "id": 581,
-          "name": "Epic"
-        },
-        {
-          "id": 219,
-          "name": "Politics"
-        },
-        {
-          "id": 1505,
-          "name": "ship"
-        },
-        {
-          "id": 1105,
-          "name": "planet"
-        },
-        {
-          "id": 2405,
-          "name": "planets"
-        },
-        {
-          "id": 6903,
-          "name": "galaxy"
-        },
-        {
-          "id": 1778,
-          "name": "food"
-        },
-        {
-          "id": 3621,
-          "name": "map"
-        },
-        {
-          "id": 1887,
-          "name": "moon"
-        },
-        {
-          "id": 2546,
-          "name": "ships"
-        },
-        {
-          "id": 2821,
-          "name": "tactics"
-        },
-        {
-          "id": 2857,
-          "name": "construction"
-        },
-        {
-          "id": 2482,
-          "name": "religion"
-        },
-        {
-          "id": 4467,
-          "name": "culture"
-        }
-      ],
-      "source": "api",
-      "screenshots": [
-        {
-          "id": 4121150,
-          "image": "https://media.rawg.io/media/screenshots/227/2272cf5f0e48b2709e92b47612b63934.jpg",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "id": 4121151,
-          "image": "https://media.rawg.io/media/screenshots/b88/b88ead9d96b4b96394be8d47b3c16639.jpg",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "id": 4121152,
-          "image": "https://media.rawg.io/media/screenshots/059/059b4a8228bada525d05e709565ea8e2.jpg",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "id": 4121153,
-          "image": "https://media.rawg.io/media/screenshots/13a/13a3aee23c4e1f36e9d2441c46ba73cc.jpg",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "id": 4121154,
-          "image": "https://media.rawg.io/media/screenshots/34b/34b85918d6d699cad4aed942e48e86fb.jpg",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "id": 4121155,
-          "image": "https://media.rawg.io/media/screenshots/026/026b5910c60d2fae54326c3869ff7846.jpg",
-          "width": 1920,
-          "height": 1080
-        }
-      ]
-    },
-    {
-      "id": "3498",
-      "title": "Grand Theft Auto V",
-      "about": "Rockstar Games went bigger, since their previous installment of the series. You get the complicated and realistic world-building from Liberty City of GTA4 in the setting of lively and diverse Los Santos, from an old fan favorite GTA San Andreas. 561 different vehicles (including every transport you can operate) and the amount is rising with every update. \nSimultaneous storytelling from three unique perspectives: \nFollow Michael, ex-criminal living his life of leisure away from the past, Franklin, a kid that seeks the better future, and Trevor, the exact past Michael is trying to run away from. \nGTA Online will provide a lot of additional challenge even for the experienced players, coming fresh from the story mode. Now you will have other players around that can help you just as likely as ruin your mission. Every GTA mechanic up to date can be experienced by players through the unique customizable character, and community content paired with the leveling system tends to keep everyone busy and engaged.\n\nEspañol\nRockstar Games se hizo más grande desde su entrega anterior de la serie. Obtienes la construcción del mundo complicada y realista de Liberty City de GTA4 en el escenario de Los Santos, un viejo favorito de los fans, GTA San Andreas. 561 vehículos diferentes (incluidos todos los transportes que puede operar) y la cantidad aumenta con cada actualización.\nNarración simultánea desde tres perspectivas únicas:\nSigue a Michael, ex-criminal que vive su vida de ocio lejos del pasado, Franklin, un niño que busca un futuro mejor, y Trevor, el pasado exacto del que Michael está tratando de huir.\nGTA Online proporcionará muchos desafíos adicionales incluso para los jugadores experimentados, recién llegados del modo historia. Ahora tendrás otros jugadores cerca que pueden ayudarte con la misma probabilidad que arruinar tu misión. Los jugadores pueden experimentar todas las mecánicas de GTA actualizadas a través del personaje personalizable único, y el contenido de la comunidad combinado con el sistema de nivelación tiende a mantener a todos ocupados y comprometidos.",
-      "backgroundImage": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+      "id": "4200",
+      "title": "Portal 2",
+      "about": "Portal 2 is a first-person puzzle game developed by Valve Corporation and released on April 19, 2011 on Steam, PS3 and Xbox 360. It was published by Valve Corporation in digital form and by Electronic Arts in physical form. \n\nIts plot directly follows the first game's, taking place in the Half-Life universe. You play as Chell, a test subject in a research facility formerly ran by the company Aperture Science, but taken over by an evil AI that turned upon its creators, GladOS. After defeating GladOS at the end of the first game but failing to escape the facility, Chell is woken up from a stasis chamber by an AI personality core, Wheatley, as the unkempt complex is falling apart. As the two attempt to navigate through the ruins and escape, they stumble upon GladOS, and accidentally re-activate her...\n\nPortal 2's core mechanics are very similar to the first game's ; the player must make their way through several test chambers which involve puzzles. For this purpose, they possess a Portal Gun, a weapon capable of creating teleportation portals on white surfaces. This seemingly simple mechanic and its subtleties coupled with the many different puzzle elements that can appear in puzzles allows the game to be easy to start playing, yet still feature profound gameplay. The sequel adds several new puzzle elements, such as gel that can render surfaces bouncy or allow you to accelerate when running on them.\n\nThe game is often praised for its gameplay, its memorable dialogue and writing and its aesthetic. Both games in the series are responsible for inspiring most puzzle games succeeding them, particularly first-person puzzle games. The series, its characters and even its items such as the portal gun and the companion cube have become a cultural icon within gaming communities.\n\nPortal 2 also features a co-op mode where two players take on the roles of robots being led through tests by GladOS, as well as an in-depth level editor.",
+      "backgroundImage": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
       "genres": [
         {
-          "id": 4,
-          "name": "Action"
+          "id": 2,
+          "name": "Shooter"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle"
         }
       ],
       "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC"
-          },
-          "requirements": {
-            "minimum": "Minimum:OS: Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1, Windows Vista 64 Bit Service Pack 2* (*NVIDIA video card recommended if running Vista OS)Processor: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHzMemory: 4 GB RAMGraphics: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)Storage: 72 GB available spaceSound Card: 100% DirectX 10 compatibleAdditional Notes: Over time downloadable content and programming changes will change the system requirements for this game.  Please refer to your hardware manufacturer and www.rockstargames.com/support for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher.     Other requirements:  Installation and online play requires log-in to Rockstar Games Social Club (13+) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Social Club platform, DirectX , Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication software that recognizes certain hardware attributes for entitlement, digital rights management, system, and other support purposes.     SINGLE USE SERIAL CODE REGISTRATION VIA INTERNET REQUIRED; REGISTRATION IS LIMITED TO ONE ROCKSTAR GAMES SOCIAL CLUB ACCOUNT (13+) PER SERIAL CODE; ONLY ONE PC LOG-IN ALLOWED PER SOCIAL CLUB ACCOUNT AT ANY TIME; SERIAL CODE(S) ARE NON-TRANSFERABLE ONCE USED; SOCIAL CLUB ACCOUNTS ARE NON-TRANSFERABLE.  Partner Requirements:  Please check the terms of service of this site before purchasing this software.",
-            "recommended": "Recommended:OS: Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1Processor: Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)Memory: 8 GB RAMGraphics: NVIDIA GTX 660 2GB / AMD HD 7870 2GBStorage: 72 GB available spaceSound Card: 100% DirectX 10 compatibleAdditional Notes:"
-          }
-        },
-        {
-          "platform": {
-            "id": 187,
-            "name": "PlayStation 5"
-          },
-          "requirements": {}
-        },
-        {
-          "platform": {
-            "id": 186,
-            "name": "Xbox Series S/X"
-          },
-          "requirements": {}
-        },
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4"
-          },
-          "requirements": {}
-        },
         {
           "platform": {
             "id": 16,
             "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
           },
           "requirements": {}
         },
@@ -707,14 +548,28 @@
         },
         {
           "platform": {
+            "id": 6,
+            "name": "Linux"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
             "id": 1,
             "name": "Xbox One"
           },
           "requirements": {}
         }
       ],
-      "rating": 4.47,
-      "releaseDate": "2013-09-17",
+      "rating": 4.6,
+      "releaseDate": "2011-04-18",
       "tags": [
         {
           "id": 31,
@@ -733,24 +588,24 @@
           "name": "Full controller support"
         },
         {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
           "id": 13,
           "name": "Atmospheric"
         },
         {
-          "id": 42,
-          "name": "Great Soundtrack"
-        },
-        {
-          "id": 24,
-          "name": "RPG"
+          "id": 7808,
+          "name": "steam-trading-cards"
         },
         {
           "id": 18,
           "name": "Co-op"
         },
         {
-          "id": 36,
-          "name": "Open World"
+          "id": 118,
+          "name": "Story Rich"
         },
         {
           "id": 411,
@@ -761,73 +616,97 @@
           "name": "First-Person"
         },
         {
-          "id": 149,
-          "name": "Third Person"
+          "id": 32,
+          "name": "Sci-fi"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 9,
+          "name": "Online Co-Op"
         },
         {
           "id": 4,
           "name": "Funny"
         },
         {
-          "id": 37,
-          "name": "Sandbox"
+          "id": 189,
+          "name": "Female Protagonist"
         },
         {
           "id": 123,
           "name": "Comedy"
         },
         {
-          "id": 150,
-          "name": "Third-Person Shooter"
+          "id": 75,
+          "name": "Local Co-Op"
         },
         {
-          "id": 62,
-          "name": "Moddable"
+          "id": 11669,
+          "name": "stats"
         },
         {
-          "id": 144,
-          "name": "Crime"
+          "id": 40852,
+          "name": "Steam Workshop"
         },
         {
-          "id": 62349,
-          "name": "vr mod"
+          "id": 25,
+          "name": "Space"
+        },
+        {
+          "id": 40838,
+          "name": "Includes level editor"
+        },
+        {
+          "id": 40833,
+          "name": "Captions available"
+        },
+        {
+          "id": 40834,
+          "name": "Commentary available"
+        },
+        {
+          "id": 87,
+          "name": "Science"
         }
       ],
       "source": "api",
       "screenshots": [
         {
-          "id": 1827221,
-          "image": "https://media.rawg.io/media/screenshots/a7c/a7c43871a54bed6573a6a429451564ef.jpg",
+          "id": 99018,
+          "image": "https://media.rawg.io/media/screenshots/221/221a03c11e5ff9f765d62f60d4b4cbf5.jpg",
           "width": 1920,
           "height": 1080
         },
         {
-          "id": 1827222,
-          "image": "https://media.rawg.io/media/screenshots/cf4/cf4367daf6a1e33684bf19adb02d16d6.jpg",
+          "id": 99019,
+          "image": "https://media.rawg.io/media/screenshots/173/1737ff43c14f40294011a209b1012875.jpg",
           "width": 1920,
           "height": 1080
         },
         {
-          "id": 1827223,
-          "image": "https://media.rawg.io/media/screenshots/f95/f9518b1d99210c0cae21fc09e95b4e31.jpg",
+          "id": 99020,
+          "image": "https://media.rawg.io/media/screenshots/b11/b11a2ae0664f0e8a1ef2346f99df26e1.jpg",
           "width": 1920,
           "height": 1080
         },
         {
-          "id": 1827225,
-          "image": "https://media.rawg.io/media/screenshots/a5c/a5c95ea539c87d5f538763e16e18fb99.jpg",
+          "id": 99021,
+          "image": "https://media.rawg.io/media/screenshots/9b1/9b107a790909b31918ebe2f40547cc85.jpg",
           "width": 1920,
           "height": 1080
         },
         {
-          "id": 1827226,
-          "image": "https://media.rawg.io/media/screenshots/a7e/a7e990bc574f4d34e03b5926361d1ee7.jpg",
+          "id": 99022,
+          "image": "https://media.rawg.io/media/screenshots/d05/d058fc7f7fa6128916c311eb14267fed.jpg",
           "width": 1920,
           "height": 1080
         },
         {
-          "id": 1827227,
-          "image": "https://media.rawg.io/media/screenshots/592/592e2501d8734b802b2a34fee2df59fa.jpg",
+          "id": 99023,
+          "image": "https://media.rawg.io/media/screenshots/415/41543dcc12dffc8e97d85a56ad42cda8.jpg",
           "width": 1920,
           "height": 1080
         }
@@ -1022,6 +901,1142 @@
           "height": 720
         }
       ]
+    },
+    {
+      "id": "13536",
+      "title": "Portal",
+      "about": "Every single time you click your mouse while holding a gun, you expect bullets to fly and enemies to fall. But here you will try out the FPS game filled with environmental puzzles and engaging story. \r\nSilent template for your adventures, Chell, wakes up in a testing facility. She’s a subject of experiments on instant travel device, supervised by snarky and hostile GLaDOS.\r\nPlayers will have to complete the tests, room by room, expecting either reward, freedom or more tests. By using the gun, that shoots portals (Portal-Gun™), players will move blocks, travel great distance quickly and learn about your current situation, which is unraveled through environmental storytelling. What you will be told might be different from what you will see.\r\nWhite environments will guide the player’s portal placement, forcing them to pay attention to the surroundings.  Portal creates tension, allowing either solving puzzles at your own leisure or moving quickly, due to the time limit or threats.",
+      "backgroundImage": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS"
+          },
+          "requirements": {
+            "minimum": "Minimum: OS X version Leopard 10.5.8, Snow Leopard 10.6.3, 1GB RAM, NVIDIA GeForce 8 or higher, ATI X1600 or higher, or Intel HD 3000 or higher Mouse, Keyboard, Internet Connection"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum: 1.7 GHz Processor, 512MB RAM, DirectX&reg; 8.1 level Graphics Card (Requires support for SSE), Windows&reg; 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection\r\nRecommended: Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX&reg; 9 level Graphics Card, Windows&reg; 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android"
+          },
+          "requirements": {
+            "minimum": "4.4 and up"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.5,
+      "releaseDate": "2007-10-09",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 32,
+          "name": "Sci-fi"
+        },
+        {
+          "id": 40845,
+          "name": "Partial Controller Support"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 193,
+          "name": "Classic"
+        },
+        {
+          "id": 189,
+          "name": "Female Protagonist"
+        },
+        {
+          "id": 123,
+          "name": "Comedy"
+        },
+        {
+          "id": 40838,
+          "name": "Includes level editor"
+        },
+        {
+          "id": 40833,
+          "name": "Captions available"
+        },
+        {
+          "id": 111,
+          "name": "Short"
+        },
+        {
+          "id": 114,
+          "name": "Physics"
+        },
+        {
+          "id": 148,
+          "name": "Dark Humor"
+        },
+        {
+          "id": 40834,
+          "name": "Commentary available"
+        },
+        {
+          "id": 40839,
+          "name": "Includes Source SDK"
+        },
+        {
+          "id": 87,
+          "name": "Science"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 115793,
+          "image": "https://media.rawg.io/media/screenshots/99e/99e94bd55eb75fa6e75c3dcbb1a570b2.jpg",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "id": 115794,
+          "image": "https://media.rawg.io/media/screenshots/2f0/2f0297a46934d9fa914c626902b1ce20.jpg",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "id": 115795,
+          "image": "https://media.rawg.io/media/screenshots/3b3/3b3713fbca6194dfc4d6e8a8d006d354.jpg",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "id": 115796,
+          "image": "https://media.rawg.io/media/screenshots/c6f/c6f9afc3e4dd51068b22f04acbc6ca99.jpg",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "id": 115797,
+          "image": "https://media.rawg.io/media/screenshots/748/74841207eec76ebc7fc03210168bfb7e.jpg",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "id": 115798,
+          "image": "https://media.rawg.io/media/screenshots/e72/e7256b4caedf099bcb8ebd332f892334.jpg",
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "id": "992717",
+      "title": "Little Big Adventure – Twinsen’s Quest",
+      "about": "Digital Deluxe Edition\nAbout the Game\nStep into Twinsun's fantastical world in this action-adventure remake! Little Big Adventure - Twinsen's Quest brings brand new visuals, new music by the original composer, and smoother gameplay to the iconic classic released back in 1994.\nEmbark on a Timeless Adventure, Reimagined\nTwinsen is back in this remake featuring a new stylish makeover and modernized gameplay. Faithful to the original game, Little Big Adventure – Twinsen’s Quest takes you on an epic journey on a small planet harboring both magic and technology.\nA Tale of Destiny and Heroism\nOn a planetoid with two suns, four species lived in perfect harmony... But that all changed when the brilliant scientist Dr. FunFrock invented cloning and teleportation, bringing the inhabitants under his total control. End the clone occupation while playing as Twinsen, a model citizen turned fugitive. Armed with your mysterious Magic Ball, explore beautiful landscapes, solve intricate puzzles, and face formidable foes!\nWhether you're a long-time fan or new to the series, Little Big Adventure - Twinsen's Quest offers an adventure like no other. Are you ready to become the hero Twinsun needs?FEATURESDiscover a compelling story with deep themes.Navigate through Twinsun with a revamped level layout and redesigned controls.Defeat foes with an enhanced Magic Ball.Enjoy a brand new artistic direction.Immerse yourself with a new soundtrack by the original composer.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/846/8468ca3588056564cfeda54b754bea12.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 3,
+          "name": "Adventure"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS: Windows 10\nProcessor: Intel Core i5 4460\nMemory: 8 GB RAM\nGraphics: nVidia GeForce GTX 970\nDirectX: Version 11\nStorage: 5 GB available space",
+            "recommended": "Recommended:\nOS: Windows 11\nProcessor: Ryzen 5 1600X / Core i3-8100\nMemory: 8 GB RAM\nGraphics: GeForce GTX 1650 / Radeon RX 580\nDirectX: Version 11\nStorage: 5 GB available space"
+          }
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 64,
+          "name": "Fantasy"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 6,
+          "name": "Exploration"
+        },
+        {
+          "id": 69,
+          "name": "Action-Adventure"
+        },
+        {
+          "id": 74,
+          "name": "Retro"
+        },
+        {
+          "id": 88,
+          "name": "Cute"
+        },
+        {
+          "id": 165,
+          "name": "Colorful"
+        },
+        {
+          "id": 571,
+          "name": "3D"
+        },
+        {
+          "id": 99,
+          "name": "Isometric"
+        },
+        {
+          "id": 82,
+          "name": "Magic"
+        },
+        {
+          "id": 40937,
+          "name": "Steam Trading Cards"
+        },
+        {
+          "id": 243,
+          "name": "1990's"
+        },
+        {
+          "id": 179,
+          "name": "Cartoon"
+        },
+        {
+          "id": 91686,
+          "name": "Family Sharing"
+        },
+        {
+          "id": 570,
+          "name": "Old School"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4123153,
+          "image": "https://media.rawg.io/media/screenshots/f87/f87e464158ce83416c354d1b8544864d.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123154,
+          "image": "https://media.rawg.io/media/screenshots/222/222161295dcc579cd2f990b4e0f2c3cc.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123155,
+          "image": "https://media.rawg.io/media/screenshots/02e/02e01c746132d6e450e1b2ae00577365.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123156,
+          "image": "https://media.rawg.io/media/screenshots/0ad/0ad7e96d4393fe80dbfdf86a23b58f5a.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123157,
+          "image": "https://media.rawg.io/media/screenshots/2d8/2d8265bfc4da5f9988d429ced77c2f1d.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123158,
+          "image": "https://media.rawg.io/media/screenshots/324/3249c333688dff6971c0f96c53e50516.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "992708",
+      "title": "Dr. Yaga Lost House",
+      "about": "Dr. Yaga Lost House Step into the shoes of a fearless video content creator in Dr. Yaga Lost House, a first-person horror game that will keep you on edge. Known for exploring haunted locations and sharing his experiences with the world, our protagonist decides to take on his most terrifying challenge yet: the abandoned house of Dr. Yaga. Dr. Yaga was a respected doctor in his town, but behind closed doors, he conducted unethical experiments on his patients, treating them as mere subjects for his twisted research. Now, the house is haunted by the consequences of his dark deeds, and it's up to you to uncover the truth and escape with your life. Key Features: Haunting Atmosphere: Experience a truly immersive horror environment with detailed graphics and creepy sound effects that heighten every moment.  Engaging Storyline: Unravel the chilling story of Dr. Yaga as you search for clues, solve puzzles, and piece together the horrifying events that took place.Interactive Exploration: Navigate through a house filled with hidden rooms, secret passages, and terrifying surprises.Challenging Puzzles: Use your intellect to solve intricate puzzles that unlock new areas and reveal more about the house’s dark past.Survival Mechanics: Manage your resources carefully as you avoid traps and protect yourself from the dangers that lurk in the shadows. Multiple Endings: Your choices will shape the outcome. Will you uncover all the secrets, or will you fall victim to the house’s horrors? Replayability: Discover alternative paths and unlock all the hidden content that the game offers. As you explore the haunted, lost house, will you be able to document the paranormal and survive the night? Dr. Yaga Lost House is a terrifying journey that will challenge your bravery.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/6c3/6c3733d4899ca52dbccfafcd78bc516d.jpg",
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS *: Windows 8 / 10 / 11 - 64 bit\nProcessor: Intel Core i3\nMemory: 8 GB RAM GB RAM\nGraphics: NVIDIA GeForce GTX 650\nDirectX: Version 11\nStorage: 10 GB available space GB available space\nSound Card: Any\nAdditional Notes: Requirements may change in future updates.",
+            "recommended": "Recommended:\nRequires a 64-bit processor and operating system"
+          }
+        }
+      ],
+      "rating": 0,
+      "releaseDate": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 16,
+          "name": "Horror"
+        },
+        {
+          "id": 30,
+          "name": "FPS"
+        },
+        {
+          "id": 26,
+          "name": "Gore"
+        },
+        {
+          "id": 6,
+          "name": "Exploration"
+        },
+        {
+          "id": 34,
+          "name": "Violent"
+        },
+        {
+          "id": 17,
+          "name": "Survival Horror"
+        },
+        {
+          "id": 77,
+          "name": "Realistic"
+        },
+        {
+          "id": 571,
+          "name": "3D"
+        },
+        {
+          "id": 91,
+          "name": "Walking Simulator"
+        },
+        {
+          "id": 243,
+          "name": "1990's"
+        },
+        {
+          "id": 229,
+          "name": "3D Platformer"
+        },
+        {
+          "id": 279,
+          "name": "Supernatural"
+        },
+        {
+          "id": 272,
+          "name": "Inventory Management"
+        },
+        {
+          "id": 91686,
+          "name": "Family Sharing"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 4123059,
+          "image": "https://media.rawg.io/media/screenshots/2fc/2fce994adb76fd237015ab5c5557a3bb.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123060,
+          "image": "https://media.rawg.io/media/screenshots/a7c/a7c1ea074149a6802d174412d03f51a5.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123061,
+          "image": "https://media.rawg.io/media/screenshots/df6/df6d038e417cea46a3ee1388c3d52ccf.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123062,
+          "image": "https://media.rawg.io/media/screenshots/aaa/aaa56a9c790e62cb388e58ef368a0bb1.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123063,
+          "image": "https://media.rawg.io/media/screenshots/6a8/6a84dbab0e194e0e37d38e665beb0521.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 4123064,
+          "image": "https://media.rawg.io/media/screenshots/c83/c837e836191080a613e8b87f70b9370a.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "3498",
+      "title": "Grand Theft Auto V",
+      "about": "Rockstar Games went bigger, since their previous installment of the series. You get the complicated and realistic world-building from Liberty City of GTA4 in the setting of lively and diverse Los Santos, from an old fan favorite GTA San Andreas. 561 different vehicles (including every transport you can operate) and the amount is rising with every update. \nSimultaneous storytelling from three unique perspectives: \nFollow Michael, ex-criminal living his life of leisure away from the past, Franklin, a kid that seeks the better future, and Trevor, the exact past Michael is trying to run away from. \nGTA Online will provide a lot of additional challenge even for the experienced players, coming fresh from the story mode. Now you will have other players around that can help you just as likely as ruin your mission. Every GTA mechanic up to date can be experienced by players through the unique customizable character, and community content paired with the leveling system tends to keep everyone busy and engaged.\n\nEspañol\nRockstar Games se hizo más grande desde su entrega anterior de la serie. Obtienes la construcción del mundo complicada y realista de Liberty City de GTA4 en el escenario de Los Santos, un viejo favorito de los fans, GTA San Andreas. 561 vehículos diferentes (incluidos todos los transportes que puede operar) y la cantidad aumenta con cada actualización.\nNarración simultánea desde tres perspectivas únicas:\nSigue a Michael, ex-criminal que vive su vida de ocio lejos del pasado, Franklin, un niño que busca un futuro mejor, y Trevor, el pasado exacto del que Michael está tratando de huir.\nGTA Online proporcionará muchos desafíos adicionales incluso para los jugadores experimentados, recién llegados del modo historia. Ahora tendrás otros jugadores cerca que pueden ayudarte con la misma probabilidad que arruinar tu misión. Los jugadores pueden experimentar todas las mecánicas de GTA actualizadas a través del personaje personalizable único, y el contenido de la comunidad combinado con el sistema de nivelación tiende a mantener a todos ocupados y comprometidos.",
+      "backgroundImage": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:OS: Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1, Windows Vista 64 Bit Service Pack 2* (*NVIDIA video card recommended if running Vista OS)Processor: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHzMemory: 4 GB RAMGraphics: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)Storage: 72 GB available spaceSound Card: 100% DirectX 10 compatibleAdditional Notes: Over time downloadable content and programming changes will change the system requirements for this game.  Please refer to your hardware manufacturer and www.rockstargames.com/support for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher.     Other requirements:  Installation and online play requires log-in to Rockstar Games Social Club (13+) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Social Club platform, DirectX , Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication software that recognizes certain hardware attributes for entitlement, digital rights management, system, and other support purposes.     SINGLE USE SERIAL CODE REGISTRATION VIA INTERNET REQUIRED; REGISTRATION IS LIMITED TO ONE ROCKSTAR GAMES SOCIAL CLUB ACCOUNT (13+) PER SERIAL CODE; ONLY ONE PC LOG-IN ALLOWED PER SOCIAL CLUB ACCOUNT AT ANY TIME; SERIAL CODE(S) ARE NON-TRANSFERABLE ONCE USED; SOCIAL CLUB ACCOUNTS ARE NON-TRANSFERABLE.  Partner Requirements:  Please check the terms of service of this site before purchasing this software.",
+            "recommended": "Recommended:OS: Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1Processor: Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)Memory: 8 GB RAMGraphics: NVIDIA GTX 660 2GB / AMD HD 7870 2GBStorage: 72 GB available spaceSound Card: 100% DirectX 10 compatibleAdditional Notes:"
+          }
+        },
+        {
+          "platform": {
+            "id": 187,
+            "name": "PlayStation 5"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 186,
+            "name": "Xbox Series S/X"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 4.47,
+      "releaseDate": "2013-09-17",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack"
+        },
+        {
+          "id": 24,
+          "name": "RPG"
+        },
+        {
+          "id": 18,
+          "name": "Co-op"
+        },
+        {
+          "id": 36,
+          "name": "Open World"
+        },
+        {
+          "id": 411,
+          "name": "cooperative"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 149,
+          "name": "Third Person"
+        },
+        {
+          "id": 4,
+          "name": "Funny"
+        },
+        {
+          "id": 37,
+          "name": "Sandbox"
+        },
+        {
+          "id": 123,
+          "name": "Comedy"
+        },
+        {
+          "id": 150,
+          "name": "Third-Person Shooter"
+        },
+        {
+          "id": 62,
+          "name": "Moddable"
+        },
+        {
+          "id": 144,
+          "name": "Crime"
+        },
+        {
+          "id": 62349,
+          "name": "vr mod"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 1827221,
+          "image": "https://media.rawg.io/media/screenshots/a7c/a7c43871a54bed6573a6a429451564ef.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 1827222,
+          "image": "https://media.rawg.io/media/screenshots/cf4/cf4367daf6a1e33684bf19adb02d16d6.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 1827223,
+          "image": "https://media.rawg.io/media/screenshots/f95/f9518b1d99210c0cae21fc09e95b4e31.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 1827225,
+          "image": "https://media.rawg.io/media/screenshots/a5c/a5c95ea539c87d5f538763e16e18fb99.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 1827226,
+          "image": "https://media.rawg.io/media/screenshots/a7e/a7e990bc574f4d34e03b5926361d1ee7.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": 1827227,
+          "image": "https://media.rawg.io/media/screenshots/592/592e2501d8734b802b2a34fee2df59fa.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "8777",
+      "title": "Five Nights at Freddy's 2",
+      "about": "Welcome back to the new and improved Freddy Fazbear's Pizza!\nIn Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike!\nWhat could go wrong?\nAs the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So to make your job easier, you've been provided with your very own empty Freddy Fazbear head, which should fool the animatronic characters into leaving you alone if they should accidentally enter your office.\nAs always, Fazbear Entertainment is not responsible for death or dismemberment.",
+      "backgroundImage": "https://media.rawg.io/media/screenshots/d15/d158c70eb8835a26a64509d29f42cc8d.jpeg",
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy"
+        },
+        {
+          "id": 14,
+          "name": "Simulation"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS"
+          },
+          "requirements": {
+            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8,  Watch 4, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS: XP,Vista,Windows 7, Windows 8\nProcessor: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent\nMemory: 1 GB RAM\nGraphics: 1 GB\nStorage: 250 MB available space"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android"
+          },
+          "requirements": {
+            "minimum": "2.3 and up"
+          }
+        }
+      ],
+      "rating": 3.6,
+      "releaseDate": "2014-11-10",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 16,
+          "name": "Horror"
+        },
+        {
+          "id": 49,
+          "name": "Difficult"
+        },
+        {
+          "id": 1,
+          "name": "Survival"
+        },
+        {
+          "id": 41,
+          "name": "Dark"
+        },
+        {
+          "id": 141,
+          "name": "Point & Click"
+        },
+        {
+          "id": 17,
+          "name": "Survival Horror"
+        },
+        {
+          "id": 117,
+          "name": "Mystery"
+        },
+        {
+          "id": 89,
+          "name": "Historical"
+        },
+        {
+          "id": 131,
+          "name": "Fast-Paced"
+        },
+        {
+          "id": 197,
+          "name": "Robots"
+        },
+        {
+          "id": 147,
+          "name": "Resource Management"
+        },
+        {
+          "id": 124,
+          "name": "Perma Death"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 180046,
+          "image": "https://media.rawg.io/media/screenshots/f49/f49163cdca7ad12588b12f24fb3bab84.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": 180047,
+          "image": "https://media.rawg.io/media/screenshots/64f/64fa63659f782ff386caba5aafd73a91.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": 180048,
+          "image": "https://media.rawg.io/media/screenshots/c1c/c1c71d2f3b1edd5d7b19481795f71db0.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": 180049,
+          "image": "https://media.rawg.io/media/screenshots/58a/58af2ec5d1fe6bc94c9dc4cd32c61fed.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": 180050,
+          "image": "https://media.rawg.io/media/screenshots/0ff/0ff5571a3032451174c49d065cbf5a30.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": 180051,
+          "image": "https://media.rawg.io/media/screenshots/a77/a77e0f55c984a44752216e56ac1e3cde.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "id": "5868",
+      "title": "Five Nights at Freddy's",
+      "about": "Welcome to your new summer job at Freddy Fazbear's Pizza, where kids and parents alike come for entertainment and food as far as the eye can see! The main attraction is Freddy Fazbear, of course; and his two friends. They are animatronic robots, programmed to please the crowds! The robots' behavior has become somewhat unpredictable at night however, and it was much cheaper to hire you as a security guard than to find a repairman.\nFrom your small office you must watch the security cameras carefully. You have a very limited amount of electricity that you're allowed to use per night (corporate budget cuts, you know). That means when you run out of power for the night- no more security doors and no more lights! If something isn't right- namely if Freddybear or his friends aren't in their proper places, you must find them on the monitors and protect yourself if needed!\nCan you survive five nights at Freddy's?\n\"For all the simplicity of the game’s controls and premise, Five Nights at Freddy‘s is frightening. It’s a fantastic example of how cleverness in design and subtlety can be used to make an experience terrifying. Simple still images and proper character design steal the show in this game, and show that Scott Cawthon knows quite a lot about the secret fears people feel when looking at creepy dolls and toys. It’s elegant in how it sows fear, and is a must-own for anyone who likes scary games.\" -Joel Couture IndieGameMag.com\nThis game was created using Clickteam Fusion!",
+      "backgroundImage": "https://media.rawg.io/media/games/bdc/bdcb4e528bdd91bc4b3ab75fedb31f7b.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action"
+        },
+        {
+          "id": 10,
+          "name": "Strategy"
+        },
+        {
+          "id": 14,
+          "name": "Simulation"
+        },
+        {
+          "id": 51,
+          "name": "Indie"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One"
+          },
+          "requirements": {}
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android"
+          },
+          "requirements": {
+            "minimum": "2.3 and up"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS"
+          },
+          "requirements": {
+            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8,  Watch 4, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC"
+          },
+          "requirements": {
+            "minimum": "Minimum:\nOS: XP,Vista,Windows7\nProcessor: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent\nMemory: 1 GB RAM\nGraphics: 1 GB\nDirectX: Version 9.0\nStorage: 250 MB available space"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {}
+        }
+      ],
+      "rating": 3.47,
+      "releaseDate": "2014-07-24",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric"
+        },
+        {
+          "id": 8,
+          "name": "First-Person"
+        },
+        {
+          "id": 16,
+          "name": "Horror"
+        },
+        {
+          "id": 26,
+          "name": "Gore"
+        },
+        {
+          "id": 49,
+          "name": "Difficult"
+        },
+        {
+          "id": 1,
+          "name": "Survival"
+        },
+        {
+          "id": 41,
+          "name": "Dark"
+        },
+        {
+          "id": 141,
+          "name": "Point & Click"
+        },
+        {
+          "id": 17,
+          "name": "Survival Horror"
+        },
+        {
+          "id": 111,
+          "name": "Short"
+        },
+        {
+          "id": 89,
+          "name": "Historical"
+        },
+        {
+          "id": 197,
+          "name": "Robots"
+        },
+        {
+          "id": 147,
+          "name": "Resource Management"
+        },
+        {
+          "id": 205,
+          "name": "Lore-Rich"
+        },
+        {
+          "id": 279,
+          "name": "Supernatural"
+        },
+        {
+          "id": 319,
+          "name": "Silent Protagonist"
+        },
+        {
+          "id": 252,
+          "name": "Mouse only"
+        }
+      ],
+      "source": "api",
+      "screenshots": [
+        {
+          "id": 181353,
+          "image": "https://media.rawg.io/media/screenshots/af8/af89fead5d093b6df596df37c90004ed.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 181354,
+          "image": "https://media.rawg.io/media/screenshots/1e7/1e7ca22d6e8e4d6778045d5f7975c37e.jpg",
+          "width": 1288,
+          "height": 723
+        },
+        {
+          "id": 181355,
+          "image": "https://media.rawg.io/media/screenshots/458/458e985c1243bd1ea609fb63daff8bbd.jpg",
+          "width": 1288,
+          "height": 729
+        },
+        {
+          "id": 181356,
+          "image": "https://media.rawg.io/media/screenshots/c60/c605aa2d268fa2ec60c02f82f55e0ca8.jpg",
+          "width": 1288,
+          "height": 728
+        },
+        {
+          "id": 181357,
+          "image": "https://media.rawg.io/media/screenshots/2a5/2a5b9798eddd41cf3e5be89f292c755e.jpg",
+          "width": 720,
+          "height": 480
+        },
+        {
+          "id": 181358,
+          "image": "https://media.rawg.io/media/screenshots/2b6/2b69050016add014bbd41ead79678dff.jpg",
+          "width": 1288,
+          "height": 728
+        }
+      ]
+    },
+    {
+      "id": "75e5c0b3-408d-408a-94c2-03a45938d361",
+      "title": "sfsdfsdsdf",
+      "about": "sfsdfsd",
+      "screenshots": [],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
+      ],
+      "rating": 4.5,
+      "releaseDate": "2024-11-15T03:00:00.000Z",
+      "tags": [],
+      "source": "json"
+    },
+    {
+      "id": "b450dcb2-9cf0-4843-9116-67bc6426b815",
+      "title": "sparking zero",
+      "about": "epico",
+      "backgroundImage": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299853/mbcbmlbgraneeorfc6pz.jpg",
+      "screenshots": [
+        {
+          "id": "171d5ddad57ead38e472dacce39e9dfe",
+          "image": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299855/aydcywxghimtuqrwrhwv.jpg",
+          "width": 1920,
+          "height": 1013
+        },
+        {
+          "id": "dcbce023278175649bef1f5d7416df3f",
+          "image": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299857/xhxkox73qkqlugvyeml9.jpg",
+          "width": 1920,
+          "height": 1013
+        },
+        {
+          "id": "8fd79e3ef9fa07f09dba7d330d7b827d",
+          "image": "http://res.cloudinary.com/dkpwt48lq/image/upload/v1730299859/ifem2w4gocztev54ybyr.jpg",
+          "width": 300,
+          "height": 168
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy"
+        }
+      ],
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch"
+          },
+          "requirements": {
+            "minimum": "No info",
+            "recommended": "No info"
+          },
+          "releasedAt": "No info"
+        }
+      ],
+      "rating": 4.5,
+      "releaseDate": "2024-10-10T03:00:00.000Z",
+      "tags": [
+        {
+          "id": 7,
+          "name": "Multiplayer"
+        }
+      ],
+      "source": "json"
     }
   ]
 }
